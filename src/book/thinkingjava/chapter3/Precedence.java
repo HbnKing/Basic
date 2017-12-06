@@ -12,6 +12,8 @@ public class Precedence {
 		int [] i = {1,2,3,};
 		System.out.println(i.length);
 		
+		
+		//可以将一个常数  等赋值给一个变量  但是 不能把任何一个东西赋给一个常数  ,常数不能作为左边值
 		int x = 1, y =2,z =3;
 		int a = x +y -2/2 +z;
 		int b = x +(y-2)/(2+z);
