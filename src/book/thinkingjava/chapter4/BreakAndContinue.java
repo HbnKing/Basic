@@ -5,6 +5,8 @@ import static  net.mindview.util.Range.*;
  * break continue
  * break  退出整个循环体  
  * continue 退出本次循环
+ * 后面会介绍  标签 跳转至标签  
+ * 虽然java  保留了goto 流程控制关键字   但没有使用  主要使用标签跳转
  * @author HENC
  *
  */
@@ -23,7 +25,6 @@ public class BreakAndContinue {
 			System.out.println(i);
 		}
 		
-		System.out.println("********");
 		int x = 0;
 		while(true) {
 			x++;
@@ -33,7 +34,6 @@ public class BreakAndContinue {
 			System.out.println(x);
 		}
 		
-		System.out.println("********");
 		x = 0;
 		do {
 			x++;
