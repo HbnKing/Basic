@@ -28,7 +28,7 @@ public class BreakAndContinue {
 		while(true) {
 			x++;
 			int y = x*27;
-			if(y == 1269) break;
+			if(y == 1269) break; 
 			if(x % 10 != 0) continue ;
 			System.out.println(x);
 		}
