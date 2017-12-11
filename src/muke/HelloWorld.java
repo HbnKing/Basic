@@ -8,7 +8,7 @@ public class HelloWorld {
 		HelloWorld hello = new HelloWorld();
         
 		// 调用hello对象的calcAvg()方法，并将返回值保存在变量avg中
-		double avg = hello.calcAvg();
+		double avg = HelloWorld.calcAvg();
         
 		System.out.println("平均成绩为：" + avg);
 	}

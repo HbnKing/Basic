@@ -17,14 +17,14 @@ public class Icreamentable {
 	public static void main(String[] args) {
 		Icreamentable i1 = new Icreamentable();
 		Icreamentable i2 = new Icreamentable();
-		i1.icreament();
-		System.out.println(i1.geti());
-		System.out.println(i2.geti());
-		i2.icreament();
 		Icreamentable.icreament();
-		System.out.println(i2.geti());
+		System.out.println(Icreamentable.geti());
+		System.out.println(Icreamentable.geti());
+		Icreamentable.icreament();
+		Icreamentable.icreament();
+		System.out.println(Icreamentable.geti());
 		int c = StaticTest.i++;
-		System.out.println(i1.geti());
+		System.out.println(Icreamentable.geti());
 		
 	}
 }

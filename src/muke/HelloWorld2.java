@@ -7,7 +7,7 @@ public class HelloWorld2 {
 		 HelloWorld2 hello = new HelloWorld2();
         
 		// 调用方法
-		hello.showMyLove();
+		HelloWorld2.showMyLove();
 		HelloWorld2.showMyLove();
 	}
 

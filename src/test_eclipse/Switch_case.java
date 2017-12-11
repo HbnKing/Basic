@@ -1,7 +1,5 @@
 package test_eclipse;
 
-import java.lang.invoke.SwitchPoint;
-
 public class Switch_case {
 	public static void main(String[] args) {
 		int i = 2;

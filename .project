@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>TIJ4-code</name>
+			<type>2</type>
+			<location>D:/Server/TIJ4-code</location>
+		</link>
+	</linkedResources>
 </projectDescription>

@@ -1,9 +1,5 @@
 package demo;
 
-import java.util.ArrayList;
-
-import javax.swing.text.ChangedCharSetException;
-
 public class Usefulfunc {
 		public static void main(String[] args) {
 			String [] strs = new String [10];

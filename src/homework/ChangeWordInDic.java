@@ -1,22 +1,13 @@
 package homework;
 
-import java.awt.RenderingHints.Key;
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import java.util.TreeMap;
-
-import javax.xml.soap.Text;
-
-import org.omg.CORBA.PUBLIC_MEMBER;
 
 
 
@@ -50,15 +41,15 @@ class DoChange{
 		while((line = br.readLine()) !=null){
 			ch =line.toCharArray();
 			Arrays.sort(ch);
-			String line2 = String.valueOf(ch);   //×ªÎª°´Ë³ÐòÅÅÁÐ
+			String line2 = String.valueOf(ch);   //×ªÎªï¿½ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			
 			paixu(line2,line);     //×ªÎªkey  value  Öµ  
 			//System.out.println(line2 +"\t"+ line);
 		}
-		//Êä³ö½á¹û
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		if(map != null){
 			Collection<ArrayList<String>> set = map.values();
-			Iterator<ArrayList<String>> inter =set.iterator();   //»ñÈ¡keyÖµµÄ¼¯ºÏ
+			Iterator<ArrayList<String>> inter =set.iterator();   //ï¿½ï¿½È¡keyÖµï¿½Ä¼ï¿½ï¿½ï¿½
 			while(inter.hasNext()){
 				ArrayList<String> list = inter.next();
 				int num = list.size();

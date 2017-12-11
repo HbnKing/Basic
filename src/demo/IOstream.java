@@ -1,6 +1,5 @@
 package demo;
 
-import java.awt.Frame;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
@@ -8,27 +7,25 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import javax.swing.text.DefaultEditorKit.CopyAction;
-
 /*
- * Ö÷ÒªÁ·Ï°ioÁ÷
- * ¶ÁÈ¡,Ð´Èë³´×÷
+ * ï¿½ï¿½Òªï¿½ï¿½Ï°ioï¿½ï¿½
+ * ï¿½ï¿½È¡,Ð´ï¿½ë³´ï¿½ï¿½
  * 
- *¶ÁÈ¡×Ö·û,×ªÎªint   ¶ÁÈ¡Ê±ÔÙÇ¿×ªÎªchar
+ *ï¿½ï¿½È¡ï¿½Ö·ï¿½,×ªÎªint   ï¿½ï¿½È¡Ê±ï¿½ï¿½Ç¿×ªÎªchar
  *1
- *µ¥¸ö¶ÁÈ¡    --while()ÅÐ¶Ï²»Îª¿Õ¾Í¼ÌÐø¶ÁÈ¡,²¢ÇÒ²»¶ÏÊä³ö
+ *ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡    --while()ï¿½Ð¶Ï²ï¿½Îªï¿½Õ¾Í¼ï¿½ï¿½ï¿½ï¿½ï¿½È¡,ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  *2
- *fr.read()¶ÁÈ¡µ¥¸ö×Ö½Ú   fr.read(chs)¶ÁÈ¡chs ×Ö·û´®³¤¶ÈµÄ×Ö·û
- *¶à¸ö¶ÁÈ¡¶à¸öÏÔÊ¾,   
- *Ëæºó×ªµ½char[]Êý×éÖÐ   ÔÚ¶Ôchar[]   ×ªstring½øÐÐ½ØÈ¡
+ *fr.read()ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½   fr.read(chs)ï¿½ï¿½È¡chs ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èµï¿½ï¿½Ö·ï¿½
+ *ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾,   
+ *ï¿½ï¿½ï¿½×ªï¿½ï¿½char[]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   ï¿½Ú¶ï¿½char[]   ×ªstringï¿½ï¿½ï¿½Ð½ï¿½È¡
  *
  *----------------------
- *¸´ÖÆÎÄ¼þÄÚÈÝ
+ *ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½
  *-------------
- * Ê¹ÓÃbuffer ÈÝÆ÷À´²Ù×÷¶ÁÈ¡ºÍÐ´Èë
+ * Ê¹ï¿½ï¿½buffer ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½Ð´ï¿½ï¿½
  * 
  * -------------------
- * buffer ¸´ÖÆ
+ * buffer ï¿½ï¿½ï¿½ï¿½
  * 
  */
 public class IOstream {
@@ -70,7 +67,7 @@ public class IOstream {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}finally{
-			if(fr != null){     ///×îºó¹Ø±Õ×ÊÔ´
+			if(fr != null){     ///ï¿½ï¿½ï¿½Ø±ï¿½ï¿½ï¿½Ô´
 				try {
 					fr.close();
 					fw.close();
@@ -162,7 +159,7 @@ public class IOstream {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}finally {
-			if(fr != null){     ///×îºó¹Ø±Õ×ÊÔ´
+			if(fr != null){     ///ï¿½ï¿½ï¿½Ø±ï¿½ï¿½ï¿½Ô´
 				try {
 					fr.close();
 					fw.close();
@@ -182,22 +179,22 @@ public class IOstream {
 		FileReader fr=null;
 		try {
 			fr = new FileReader("IOstream.txt");
-			char [] chs = new char [4];  //¶¨ÒåÒ»¸öËÄ¸ö³¤¶ÈµÄ×Ö·û´®,´óÎÄ¼þ×îºÃ¶¨Òâ1024µÄÕûÊý±¶	
+			char [] chs = new char [4];  //ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½Èµï¿½ï¿½Ö·ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½ï¿½1024ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½	
 			int num =0;
 			while ((num =fr.read(chs)) !=-1){
-			//System.out.println(chs);   //ÒÔÊý×éµÄÐÎÊ½Êä³ö,µ«ÊÇÓÐÎÊÌâ,¶ÁÈ¡Ê±ºòchsºó²¿·ÖÃ»ÓÐ±»¸²¸Ç,»¹ÊÇÉÏÒ»´ÎµÄÖµ
-			System.out.println("³¤¶ÈÎª"+num+"ÄÚÈÝÎª:"+new String(chs,0,num));              //½«Êý×é×ªÎª×Ö·û´®,È»ºó¸ù¾Ý¶ÁÈ¡µÄµ½µÄnum³¤¶È½øÐÐ½ØÈ¡
+			//System.out.println(chs);   //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½È¡Ê±ï¿½ï¿½chsï¿½ó²¿·ï¿½Ã»ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Îµï¿½Öµ
+			System.out.println("ï¿½ï¿½ï¿½ï¿½Îª"+num+"ï¿½ï¿½ï¿½ï¿½Îª:"+new String(chs,0,num));              //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÎªï¿½Ö·ï¿½ï¿½ï¿½,È»ï¿½ï¿½ï¿½ï¿½Ý¶ï¿½È¡ï¿½Äµï¿½ï¿½ï¿½numï¿½ï¿½ï¿½È½ï¿½ï¿½Ð½ï¿½È¡
 			}
 			
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}catch (IOException e) {  //fr.read()Òì³£
+		}catch (IOException e) {  //fr.read()ï¿½ì³£
 			// TODO Auto-generated catch block
 			e.printStackTrace();  
 		}finally {
-			if(fr !=null){   //fr ÓÐÖ¸Ïò,²»Îª¿Õ
+			if(fr !=null){   //fr ï¿½ï¿½Ö¸ï¿½ï¿½,ï¿½ï¿½Îªï¿½ï¿½
 				try {
 					fr.close();
 				} catch (IOException e) {
@@ -218,21 +215,21 @@ public class IOstream {
 		try {
 			fr = new FileReader("IOstream.txt");
 			
-				//int num= fr.read();   //fr.read();¶ÁÈ¡µÄÊÇÒ»¸ö×Ö·û×ª³ÉµÄUnicode±àÂë
+				//int num= fr.read();   //fr.read();ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½×ªï¿½Éµï¿½Unicodeï¿½ï¿½ï¿½ï¿½
 			int num =0;					
-			while((num= fr.read()) !=-1){		//µ±¶ÁÈ¡µÄÊý×Ö·µ»ØÖµ²»ÊÇ-1Ê±ºò¾Í¼ÌÐø
+			while((num= fr.read()) !=-1){		//ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½-1Ê±ï¿½ï¿½Í¼ï¿½ï¿½ï¿½
 				//System.out.println(num);
-				System.out.println((char)num);    //ÔÙ½«Õâ¸önum ×ªÎª×Ö·û(char)
+				System.out.println((char)num);    //ï¿½Ù½ï¿½ï¿½ï¿½ï¿½num ×ªÎªï¿½Ö·ï¿½(char)
 					//fr.close();
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}catch (IOException e) {  //fr.read()Òì³£
+		}catch (IOException e) {  //fr.read()ï¿½ì³£
 			// TODO Auto-generated catch block
 			e.printStackTrace();  
 		}finally {
-			if(fr !=null){   //µ±¶ÁÈ¡Íê±ÏµÄÊ±ºòÎª¿Õ
+			if(fr !=null){   //ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½Ïµï¿½Ê±ï¿½ï¿½Îªï¿½ï¿½
 				try {
 					fr.close();
 				} catch (IOException e) {
@@ -250,14 +247,14 @@ public class IOstream {
 		// TODO Auto-generated method stub
 		try {
 			FileWriter fw = new FileWriter("IOstream.txt");
-			fw.write("abABcccccccc");            //½øÐÐÐ´Èë²Ù×÷
+			fw.write("abABcccccccc");            //ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½
 			
-			//fw.flush();						//Ë¢ÐÂÁ÷
+			//fw.flush();						//Ë¢ï¿½ï¿½ï¿½ï¿½
 			fw.write("iiiiiiiiiiiii");			
 			//fw.flush();		
 			
-			fw.close();                       //¹Ø±Õ×ÊÔ´,¶ÁÈ¡ºÍÐ´ÈëÕ¼ÓÃ´óÁ¿µÄ×ÊÔ´ÀàÐÍ,Ê¹ÓÃclose();Ö®ºó¿ÉÒÔ²»ÓÃflush();
-												//Ê¹ÓÃÍê±ÏºóÓ¦µ±¹Ø±Õ.·ñÔòÒ»Ö±Õ¼ÓÃ»áµ¼ÖÂÒ»Ð©´íÎó
+			fw.close();                       //ï¿½Ø±ï¿½ï¿½ï¿½Ô´,ï¿½ï¿½È¡ï¿½ï¿½Ð´ï¿½ï¿½Õ¼ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½,Ê¹ï¿½ï¿½close();Ö®ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½flush();
+												//Ê¹ï¿½ï¿½ï¿½ï¿½Ïºï¿½Ó¦ï¿½ï¿½ï¿½Ø±ï¿½.ï¿½ï¿½ï¿½ï¿½Ò»Ö±Õ¼ï¿½Ã»áµ¼ï¿½ï¿½Ò»Ð©ï¿½ï¿½ï¿½ï¿½
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
