@@ -1,5 +1,12 @@
 package book.thinkingjava.chapter5;
 
+/**
+ * 定义枚举类时 会自动创建 tostring() 方法 显示每个enum 实例的名字
+ * 创建 ordinal() 方法 表示enum 声明的顺序 
+ * static values() 产生这些常量构成的数组
+ * @author HENC
+ *
+ */
 public class SimpleEnumUse {
 
 	public static void main(String[] args) {
