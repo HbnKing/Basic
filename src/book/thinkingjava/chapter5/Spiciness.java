@@ -6,7 +6,7 @@ package book.thinkingjava.chapter5;
  * @author HENC
  *
  */
-public enum Spicness {
+public enum Spiciness {
 	
 	NOT,MILD,MEDIUM,HOT,FLAMING
 }
