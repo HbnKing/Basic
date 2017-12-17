@@ -3,8 +3,13 @@ package book.thinkingjava.chapter5;
 import static net.mindview.util.Print.*;
 
 /**
- * 相同的   方法名  返回值类型   只有   参数不同
+ * 相同的   方法名   只有   参数不同
+ * 不能根据返回值类型来区别    比如  system.out.println(  function(a))
  * 方法 的重载   overloading
+ * 
+ * 类型的提升     如果  无法找到接收char类型的构造方法  会直接提升至  int 类型
+ * 如果实际类型大与参数类型     需要  窄化处理   显式转化该类型 否则会报错 
+ * 
  * @author HENC
  *
  */

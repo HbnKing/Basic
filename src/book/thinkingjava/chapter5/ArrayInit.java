@@ -21,6 +21,7 @@ public class ArrayInit {
 				new Integer(2),
 				3,  //最后一个元素的逗号  是可选 的
 			};
+		Integer [] c = new Integer[10] ;
 	
 	System.out.println(Arrays.toString(a));
 	System.out.println(Arrays.toString(b));

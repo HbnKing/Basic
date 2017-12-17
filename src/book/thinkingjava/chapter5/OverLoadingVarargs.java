@@ -10,6 +10,7 @@ public class OverLoadingVarargs {
 		f(0);
 		f(0l);
 		//f();  没有参数类型的时候就不知道用哪个方法了
+		//这个时候需要 增加一个区分参数
 
 	}
 	

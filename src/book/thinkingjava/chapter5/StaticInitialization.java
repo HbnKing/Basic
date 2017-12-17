@@ -9,7 +9,7 @@ import static net.mindview.util.Print.*;
  * 普通对象的初始化 ---
  * 在执行本类的构造方法 --
  * @author HENC
- *
+ * 注意 虽然构造器没有 使用static  实际上也是构造方法
  */
 public class StaticInitialization {
 

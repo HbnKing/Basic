@@ -5,7 +5,7 @@ import static net.mindview.util.Print.*;
 /**
  * 非静态类的初始化  
  * 内部对象先初始化  
- * 在执行本类构造方法
+ * 在执行本类构造方法 
  * @author HENC
  *
  */
