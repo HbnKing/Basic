@@ -15,6 +15,7 @@ public class ExplicitStatic {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
 		print("Inside main()");
 		Cups.cup1.f(99);
 		//cup1 在cups 为静态属性  可以直接调用
