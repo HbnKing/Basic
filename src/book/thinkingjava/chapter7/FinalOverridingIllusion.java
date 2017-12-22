@@ -8,6 +8,11 @@ package book.thinkingjava.chapter7;
  * 可以private 和final  可以一起使用  但并没有额外的意义
  * @author HENC
  *
+ *
+ *final 关键字可以用来修饰类 
+ * 被  final 修饰类不可以被继承
+ *final 类 中所有的方法 被隐式的指定为final 
+ *
  */
 
 public class FinalOverridingIllusion{

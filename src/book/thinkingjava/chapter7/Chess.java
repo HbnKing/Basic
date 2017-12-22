@@ -3,7 +3,7 @@ package book.thinkingjava.chapter7;
 /**
  * 有参数的构造方法如何执行  
  * 必须使用关键字super 
- *  显式 的调用基类的构造器的语句
+ * 显式 的调用基类的构造器的语句
  * @author HENC
  *
  */
