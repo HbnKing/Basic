@@ -5,7 +5,7 @@ import static net.mindview.util.Print.*;
 /**
  * private 方法的重载的   
  * 和向上转型 会出现问题
- * 
+ * 结论 只有 非 私有化方法才可以覆盖 
  * @author HENC
  *
  */
