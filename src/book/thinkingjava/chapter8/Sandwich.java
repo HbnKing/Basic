@@ -1,5 +1,10 @@
 package book.thinkingjava.chapter8;
 
+/**
+ * 
+ * @author HENC
+ *
+ */
 public class Sandwich extends PortableLunch {
 	private Bread b = new Bread();
 	private Cheese c = new Cheese();

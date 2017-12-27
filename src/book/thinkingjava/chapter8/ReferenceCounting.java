@@ -4,7 +4,7 @@ package book.thinkingjava.chapter8;
 import static net.mindview.util.Print.*;
 
 /**
- * 
+ * 对象共享的清理
  * @author HENC
  * 这个类中的this  是对象本身   会自动调用  重写的toString() 方法
  */

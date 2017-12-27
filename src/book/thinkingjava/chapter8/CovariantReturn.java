@@ -1,7 +1,7 @@
 package book.thinkingjava.chapter8;
 
 /**
- * 协变 返回 类型
+ * 协变 返回 类型  CovariantReturn
  * 
  * 协变类型  允许 返回 更具体的 wheat() 类型
  * @author HENC

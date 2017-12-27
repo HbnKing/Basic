@@ -1,5 +1,10 @@
 package book.thinkingjava.chapter8;
 
+/**
+ * 域 的范围  容易造成混淆
+ * @author HENC
+ *
+ */
 public class FieldAccess {
 
 	public static void main(String[] args) {
