@@ -7,7 +7,7 @@ package book.thinkingjava.chapter8;
  * @author HENC
  *
  */
-public class GovariantReturn {
+public class CovariantReturn {
 
 	public static void main(String[] args) {
 
