@@ -5,6 +5,9 @@ package book.thinkingjava.chapter10;
 /**
  * 创建一个内部类
  * 外部内的  方法 指向 内部类的引用  
+ * 除静态方法之外
+ * outClassName.innerClassName
+ * 来创建内部类对象 
  * @author HENC
  *
  */
