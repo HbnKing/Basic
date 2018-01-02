@@ -18,7 +18,6 @@ public class Adventure {
 		u(h);
 		v(h);
 		w(h);
-
 	}
 
 }

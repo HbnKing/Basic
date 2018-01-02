@@ -27,6 +27,8 @@ public class Music4 {
 		};
 		
 		tuneAll(orchestra);
+		//Instrument aa = new  Instrument();
+		//抽象 类不能实例化   
 	}
 }
 
