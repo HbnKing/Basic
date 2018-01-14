@@ -3,7 +3,7 @@ package book.thinkingjava.chapter10;
 import  innerclasses.Wrapping;
 
 /**
- * 
+ * 匿名内部类的构造器  
  * @author HENC
  *
  */

@@ -2,8 +2,15 @@ package book.thinkingjava.chapter10;
 
 import innerclasses.Contents;
 import innerclasses.Destination;
-
-
+/**
+ * 10.7 嵌套类
+ * @author HENC
+ * 普通的内部类 隐式的包含了一个引用  ,指向创建他的外围类;
+ * 而当 内部类是static  就不是这样了
+ *
+ *1.要创建嵌套类的对象 ,并不需要其外围类的对象.
+ *2.不能从嵌套类的对象中访问非静态 的外围类对象.
+ */
 public class Parcel11 {
 
 	private static class ParcelContents implements Contents{

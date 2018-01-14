@@ -2,10 +2,15 @@ package book.thinkingjava.chapter10;
 
 import innerclasses.Destination;
 
+/**
+ * 匿名内部类  中  引用 外部参数  必须是final 的
+ * @author HENC
+ *
+ */
 public class Parcel10 {
 
 	public Destination
-	destination (String dest, float price) {
+	destination (final String dest, final float price) {
 		// !dest = "";
 		// ! price =1.2f;
 		return new  Destination() {

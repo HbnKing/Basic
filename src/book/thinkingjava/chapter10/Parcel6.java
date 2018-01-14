@@ -3,6 +3,7 @@ package book.thinkingjava.chapter10;
 /**
  * 有判断条件的  作用域   
  * @author HENC
+ * trackingslip 类被嵌入 在  if 语句的作用域 内 
  *
  */
 public class Parcel6 {

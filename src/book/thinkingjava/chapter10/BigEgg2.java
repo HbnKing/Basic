@@ -3,7 +3,7 @@ package book.thinkingjava.chapter10;
 import static net.mindview.util.Print.*;
 
 /**
- * 
+ * 10.10内部类  不能被重写   但是可以继承内部类
  * @author HENC
  *
  */
@@ -37,6 +37,9 @@ public class BigEgg2 extends Egg2 {
 
 }
 class Egg2{
+	public Egg2() {
+		print("New Egg2");
+	}
 	protected class Yolk{
 		public Yolk() {
 			print("Egg2.yolk");
@@ -46,9 +49,7 @@ class Egg2{
 		}
 	}
 	private Yolk y = new Yolk();
-	public Egg2() {
-		print("New Egg2");
-	}
+	
 	
 	public void insertYolk(Yolk yy) {y =yy;}
 	//调用子类的发f(); 方法

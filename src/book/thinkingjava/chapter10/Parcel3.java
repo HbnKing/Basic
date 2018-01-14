@@ -1,7 +1,5 @@
 package book.thinkingjava.chapter10;
 
-import book.thinkingjava.chapter10.Parcel2.Contents;
-import book.thinkingjava.chapter10.Parcel2.Destination;
 
 /**
  * 使用.new  来创建 内部类
