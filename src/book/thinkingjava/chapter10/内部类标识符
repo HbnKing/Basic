@@ -1,0 +1,7 @@
+每个类都会生成一个 .class   文件  
+内部类也需要
+
+Counter.class   外部类 
+LocalInnerClass$1.class    内部匿名对象
+LocalInnerClass$1LocalConunter.class  内部类 
+LocalInnerClass.class 
