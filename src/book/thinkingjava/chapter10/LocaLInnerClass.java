@@ -17,6 +17,8 @@ public class LocaLInnerClass {
 
 	private int count  = 0;
 	Counter getCounter(final String name) {
+		//局部内部类 
+		//不能有访问修饰符   如 public  default
 		class LocalCounter implements Counter{
 			public LocalCounter() {
 				print("LocalCounter");
