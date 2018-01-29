@@ -13,7 +13,7 @@ import java.util.Random;
 public class Statistics {
 
 	public static void main(String[] args) {
-
+		
 		Random rand = new Random();
 		Map<Integer,Integer> m = new  HashMap<Integer,Integer>();
 		

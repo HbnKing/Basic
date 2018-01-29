@@ -9,7 +9,7 @@ import typeinfo.pets.Pets;
 public class ListIteration {
 
 	public static void main(String[] args) {
-
+		
 		List<Pet> pets = Pets.arrayList(8);
 		ListIterator<Pet> it = pets.listIterator();
 		while(it.hasNext()) {
@@ -30,6 +30,8 @@ public class ListIteration {
 		}
 		System.out.println(pets);
 		
+		
+		new StringBuffer();
 	}
 
 }

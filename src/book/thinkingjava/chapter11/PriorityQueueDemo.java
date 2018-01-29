@@ -2,6 +2,7 @@ package book.thinkingjava.chapter11;
 
 import java.util.PriorityQueue;
 import java.util.Random;
+import java.util.TreeMap;
 
 /**
  * PriorityQueue 有序的队列
@@ -23,6 +24,8 @@ public class PriorityQueueDemo {
 		}
 		//打印根据 大小排序
 		QueueDemo.printQ(priority);
+		
+		new TreeMap();
 	
 	}
 

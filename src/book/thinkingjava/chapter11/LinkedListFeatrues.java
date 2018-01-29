@@ -2,10 +2,8 @@ package book.thinkingjava.chapter11;
 
 import java.util.LinkedList;
 
-import javax.print.event.PrintServiceAttributeListener;
 
 import static net.mindview.util.Print.*;
-import book.thinkingjava.chapter6.Print;
 import typeinfo.pets.Pet;
 import typeinfo.pets.Pets;
 import typeinfo.pets.Rat;
