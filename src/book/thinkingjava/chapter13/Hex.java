@@ -5,6 +5,11 @@ import java.io.IOException;
 
 import net.mindview.util.BinaryFile;
 
+/**
+ * 13.5  读取文件  并返回他的二进制 byte
+ * @author Wangheng
+ *
+ */
 public class Hex {
 	public static String format(byte[] data) {
 		StringBuilder result  = new StringBuilder();

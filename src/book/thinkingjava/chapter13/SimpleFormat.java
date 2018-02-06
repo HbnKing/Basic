@@ -4,7 +4,7 @@ package book.thinkingjava.chapter13;
  * formatter类
  * @author Wangheng
  *
- */
+ */ 
 public class SimpleFormat {
 
 	
