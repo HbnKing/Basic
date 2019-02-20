@@ -7,4 +7,30 @@
   **/
 object InputOutput {
 
+  def main(args: Array[String]): Unit = {
+    checkInputOupt
+
+  }
+
+  def checkInputOupt{
+
+    println("please  show your name ")
+    val  name = readLine()
+
+    println("please show your age ")
+    val age = readInt()
+
+    if(age <18){
+      println("you are  so young")
+    }else{
+
+      println("good man")
+    }
+    println("this is your message ")
+
+    println("your name is "+ name +" your age  is " +age)
+
+
+  }
+
 }
