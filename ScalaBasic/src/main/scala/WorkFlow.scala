@@ -22,10 +22,13 @@ object WorkFlow {
 
     //checkfor
 
-    breakType1()
+    //breakType1()
     //Exception in thread "main" scala.util.control.BreakControl
-    breakType2()
+    //breakType2()
 
+    checkforTwice()
+
+    checkif()
 
 
   }
@@ -135,7 +138,30 @@ object WorkFlow {
     }
   }
 
-  //for 推导式
+
+  def  checkforTwice(){
+    //for 推导式
+    for(i <- 1 to 10 )yield(i)
+
+    for(i <- 1 to 9;j <-1 to 9 ){
+      if(j == 9){
+        println(j*i)
+      }else{
+        print(i *j +" ")
+      }
+    }
+
+  }
+
+  //if 守卫
+  def  checkif(){
+    for(i <- 1 to 10 if(i%2==0) )println(i)
+
+  }
+
+
+
+
 
 
 
