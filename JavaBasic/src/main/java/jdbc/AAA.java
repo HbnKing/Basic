@@ -1,3 +1,4 @@
+/*
 package jdbc;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -7,10 +8,12 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.io.*;
 
+*/
 /**
  * Created by zhanpeng on 2016/10/14.
- */
-@Component
+ *//*
+
+
 public class FileWriterService {
 
     @Value("${file.path}")
@@ -61,4 +64,4 @@ public class FileWriterService {
                 e.printStackTrace();
             }
     }
-}
+}*/

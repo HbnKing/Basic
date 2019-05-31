@@ -156,8 +156,26 @@ object MapTuple {
     println(age11.mkString)
 
 
+    /**
+      * Map  的 元素 类型
+      *
+      * tuple
+      */
 
+    val  t = ("let",30)
+    //访问 tuple  的 内部元素
+    println(t._1  +" :"+ t._2)
 
+    /**
+      * 拉链操作
+      * 长度不等的数据 取最短值
+      *
+      */
+
+    val  names = Array("leo","jack","tom")
+    val  ag = Array(12,19)
+    val  namewithage = names.zip(ag)
+    for((name,age) <- namewithage)println(name +":" +age)
   }
 
 }
