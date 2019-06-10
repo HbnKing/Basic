@@ -58,11 +58,12 @@
         * 为什么run()方法里面是while(true)?
 * 20 网络通信
 * 21 数据库操作
-    * JDBC 数据库连接技术
-    * sql 包 jdbc连接
-    * statment  和 preparstament
-    * sql 注入攻击
-    * orm 
+    * [JDBC 数据库连接技术](./doc/JDBC/JDBC.md)
+    * [sql包jdbc连接](./doc/JDBC/JDBCPackage.md)
+    * [Statement和PreparedStatement](./doc/JDBC/StatementPrepareStatement.md)
+    * [批处理与事务处理](./doc/JDBC/Transaction.md)
+    * ORM 
+    
 * 21 Annotation
 * 21 Java8新特性
     * 接口定义增强
