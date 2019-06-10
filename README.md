@@ -4,7 +4,7 @@
 
 ## 计算机通用知识 
 
-## [JAVA基础](JavaBasic/JavaBasic.md)
+## [JAVA基础](./JavaBasic/JavaBasic.md)
 
 ## SCALA基础
 
