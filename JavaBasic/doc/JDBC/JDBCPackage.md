@@ -46,16 +46,19 @@ Conection 接口 提供了 close()方法
 
 Statement stmt = conn.createStatement();
 执行增删改
-
+```
 int rows = executeUpdate(sql语句);
+```
 执行查询
-
+```
 ResultSet rs = executeQuery(sql语句);
+```
 4) 关闭资源：先打开的后关闭
-
+```
 rs.close();
 stmt.close;
 conn.close;
+```
 新增示例代码：
 标准写法应该将异常捕捉处理，并将close释放资源代码放在finally块中，这里简单写了。
 ```

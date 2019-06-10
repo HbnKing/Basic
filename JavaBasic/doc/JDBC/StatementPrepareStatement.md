@@ -3,13 +3,13 @@
 注入攻击问题与解决方法
 
 数据库表：
-
+```
 create table xx_user (
    username varchar(20) primary key,
    password varchar(20) not null
 );
 insert into xx_user values('wang', '123');
-
+```
 登录方法：
 java
 // 登录方法，如果有用户名和密码其中之一不正确，返回false表示登录失败
@@ -64,18 +64,20 @@ public boolean login (String username, String password) {
  
 
 用户名和密码都没有输入正确，但返回true的例子
+```
 boolean success = dao.login("laowang", "aaa' or '1'='1");
 System.out.println("登录" + success);
+```
 解决注入攻击的一种手段：
 
 
-在`PrepareStatement`对应的sql语句中，可以使用`?`代表一个未知的值。
- `?`只能代表值，不能是关键字，表名，列名
- 调用的方法根据`?`的实际类型而定，例如值是int 调用setInt方法
- `?`的对应的set方法下标从`1`开始
+在`PrepareStatement`对应的sql语句中，可以使用`?`代表一个未知的值。  
+ `?`只能代表值，不能是关键字，表名，列名  
+ 调用的方法根据`?`的实际类型而定，例如值是int 调用setInt方法  
+ `?`的对应的set方法下标从`1`开始  
 
 代码：
-
+```
 // 1) 创建 PreparedStatement
 PreparedStatement stmt = conn.prepareStatement("select * from xx_user where username = ? and password = ? ");
 // 2) 给?占位符赋值
@@ -88,6 +90,8 @@ if(rs.next()) {
 } else {
     System.out.println("没查询到");
 }
+
+```
 自己写的JDBC工具类
 ```
 import com.alibaba.druid.pool.DruidDataSource;

@@ -19,14 +19,14 @@ conn.commit();
 //回滚
 conn.rollback();
 实例：
- 
+```
     // 1. Connection 连接对象
     // 2. Statement 执行sql语句 PreparedStatement  值是以?占位符来代替， .setXXX(?位置, 值);
     //      好处: 可以防止sql的注入攻击
     //    executeQuery 查询     executeUpdate  增删改(int 影响行数)   execute  增删改查(返回true表示查询 false是增删改)
     // 3. ResultSet 结果集   .next() 返回值代表是否有下一条记录    .getXXX(列下标)  .getXXX(列名)
     // 4. 关闭顺序：rs > stmt > conn
-```
+
     public static void main(String[] args) {
  
         Connection conn = null;
@@ -91,11 +91,11 @@ execute sql1 using @param;
 
 jdbc中要利用`预编译`的功能，需要使用`PreparedStatement`，普通`Statement`不行，另外对于MySQL来说，要在jdbc 连接字符串中加入参数：`useServerPrepStmts=true&cachePrepStmts=true`
 其中：
-
+```
 `useServerPrepStmts=true`是开启MySQL的预编译功能，即`PreparedStatement对象`会利用`prepare`语句
  `cachePrepStmts=true`是同一个连接的多个`PreparedStatement对象`能够被缓存，否则一旦`PreparedStatement对象`关闭，
 则下一个`PreparedStatement对象`执行相同sql时，还是会重新执行`prepare`
- 
+```
 
  2.2 批处理
 关键方法：
