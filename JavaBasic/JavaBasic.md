@@ -18,6 +18,7 @@
     * 分支结构
     * 循环结构
     * 循环控制
+    * 思考
 * 5 方法的定义和使用
 * 6 字符串
     * [String类的HashCode()方法](./doc/String/String_and_hashcode.md)
@@ -29,6 +30,7 @@
     * 数字操作类
     * 日期操作类
     * StringBuffer类
+        String  和 StringBuffer的 区别
     * Runtime类
     * System类
     * 对象克隆
@@ -51,9 +53,14 @@
     * 多线程的操作方法
     * 线程的同步与死锁
     * 生产者与消费者模型
+    * 回顾
+        * 单线程多个while(true)会执行到后面的么？
+        * 为什么run()方法里面是while(true)?
 * 20 网络通信
 * 21 数据库操作
-    * sql 包
+    * JDBC 数据库连接技术
+    * sql 包 jdbc连接
+    * statment  和 preparstament
     * sql 注入攻击
     * orm 
 * 21 Annotation
@@ -74,7 +81,7 @@
 * JVM 类家在机制
 * JVM 垃圾回收机制 
 
-* Swing ?
+* Swing 看看框架设计
 
 ## 第四部分:项目实战
 有项目么？
