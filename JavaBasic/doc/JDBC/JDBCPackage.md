@@ -23,15 +23,15 @@
 
 1) 加载驱动 ：新版jdbc可以省略
 oracle 驱动类 oracle.jdbc.driver.OracleDriver
-加载类使用,这就是一个容器 ```Class.forName("oracle.jdbc.driver.OracleDriver")```
+加载类使用,这就是一个容器   ```Class.forName("oracle.jdbc.driver.OracleDriver")```  
 Class.forName("驱动类名");
 2) 创建数据库连接 
 数据库连接地址
 数据库用户名 
 数据库的密码
 
-Connection conn = DriverManager.getConnection(连接字符串, 用户名, 密码);
-[MySQL连接字符串参考](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-jdbc-url-format.html)
+Connection conn = DriverManager.getConnection(连接字符串, 用户名, 密码);  
+[MySQL连接字符串参考](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-jdbc-url-format.html)  
 
 [连接字符串参数说明](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-configuration-properties.html)
 
@@ -120,14 +120,13 @@ System.out.println(rs.getInt(1));
 ```
 
 
-可能连不上oracle 的原因
-可能连接不上数据库的原因：
-1、计算机名被改
-2、监听服务出现错误
-      1）、监听的主机名称不是本机的计算机名称，也不要使用IP地址
-      2）、监听配置文件路径
-            a、监听文件：listener.ora
-            b、监听文件的名称文件：tnsnames
-      3）、不能找到指定的SID
-            数据库的名字就是SID的名字，但是很多的时候该名称不会自动注册，即只有数据库名称，没有SID名称（Net Manage）（添加监听程序）（Oracle）
+可能连接不上数据库（oracle）的原因：  
+1、计算机名被改  
+2、监听服务出现错误  
+      1）、监听的主机名称不是本机的计算机名称，也不要使用IP地址  
+      2）、监听配置文件路径  
+            a、监听文件：listener.ora  
+            b、监听文件的名称文件：tnsnames  
+      3）、不能找到指定的SID  
+            数据库的名字就是SID的名字，但是很多的时候该名称不会自动注册，即只有数据库名称，没有SID名称（Net Manage）（添加监听程序）（Oracle）  
 
