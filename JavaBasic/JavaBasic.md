@@ -8,7 +8,7 @@
     * 1.2 Java语言的特征
 * 2 开发工具【Eclipse /IDEA】
 * 3 Java语言基础
-    * 3.1 java  主类的结构
+    * 3.1 java 主类的结构
     * 3.2 基本数据类型
     * 3.3 变量与常量
     * 3.4 运算符 
@@ -29,8 +29,9 @@
 * 10 Java基础类库
     * 数字操作类
     * 日期操作类
+        * java.util.Date 和java.sql.Date
     * StringBuffer类
-        String  和 StringBuffer的 区别
+        String  和 StringBuffer
     * Runtime类
     * System类
     * 对象克隆
@@ -57,12 +58,16 @@
         * 单线程多个while(true)会执行到后面的么？
         * 为什么run()方法里面是while(true)?
 * 20 网络通信
+    * 网络编程简介
+    * 网络编程实现
+    * 网络编程ECHO
 * 21 数据库操作
     * [JDBC 数据库连接技术](./doc/JDBC/JDBC.md)
     * [sql包jdbc连接](./doc/JDBC/JDBCPackage.md)
     * [Statement和PreparedStatement](./doc/JDBC/StatementPrepareStatement.md)
     * [批处理与事务处理](./doc/JDBC/Transaction.md)
     * ORM 
+    * 分页模型
     
 * 21 Annotation
 * 21 Java8新特性
