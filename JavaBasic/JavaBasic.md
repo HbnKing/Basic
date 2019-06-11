@@ -21,6 +21,13 @@
     * 思考
 * 5 方法的定义和使用
 * 6 字符串
+    * [字符串的两种实例化方法及区别](./doc/String/instantiate.md)
+    * 匿名对象
+    * [字符串的比较](./doc/String/StringComparison.md)
+    * [不可变字符串](./doc/String/UnmutableString.md)
+    * [String 类的常用方法](./doc/String/String'sMethod.md)
+    * 正则表达式
+    * 格式化字符串
     * [String类的HashCode()方法](./doc/String/String_and_hashcode.md)
 
 * 7 数组
