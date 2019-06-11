@@ -52,6 +52,17 @@ for(int x=0;x<data.length;x++){ data[x]-=32;//将小写字母变为大写形式;
 System.out.println(new String(data)); System.out.println(new String(data,5,5));
 } }
 ```
+判断两个字符串大小
+```
+public class StringDemo{
+public static void main(String args[]){
+String stra="hello";
+String strb="heLLo"; 
+System.out.println(stra.equals(strb)); 
+System.out.println(stra.equalsIgnoreCase(strb)); 
+System.out.println(stra.compareTo(strb));
+} }
+```
 
 | No|方法名称|类型|描述|
 | ------ | ------ | ------ | ------ |
@@ -67,13 +78,8 @@ System.out.println(new String(data)); System.out.println(new String(data,5,5));
 |10|equalsIgnoreCase(String anotherSt ring)| 普通|进行相等判断，不区分大小写|
 |11|compareTo(String anotherString)|普通|判断两个字符的大小(按照字 符编码比较)，此方法的返回 值有如下三种结果: 1、=0，表示要比较的两个字 符串内容相等; 2、>0，表示大于的结果 3、<0，表示小鱼的结果|
 
-public class StringDemo{
-public static void main(String args[]){
-String stra="hello";
-String strb="heLLo"; System.out.println(stra.equals(strb)); System.out.println(stra.equalsIgnoreCase(strb)); System.out.println(stra.compareTo(strb));
-} }
 
-String类常用方法(字符串查找)
+## String类常用方法(字符串查找)
 
 | No|方法名称|类型|描述|
 | ------ | ------ | ------ | ------ |
@@ -117,7 +123,7 @@ public static void main(String args[]){
 String str="##@@hello**"; System.out.println(str.startsWith("##")); System.out.println(str.startsWith("@@",2)); System.out.println(str.endsWith("**"));
 } }
 ```
-第10章 课时41:String类常用方法(字符串替换)
+## String类常用方法(字符串替换)
 //正则，regex
 ```
 public class StringDemo{
@@ -125,7 +131,7 @@ public static void main(String args[]){ String str="helloworld";
 String resultA=str.replaceAll("l","_"); String resultB=str.replaceFirst("l","_"); System.out.println(resultA); System.out.println(resultB);
 } }
 ```
-第10章 课时42:String类常用方法(字符串截取)
+## String类常用方法(字符串截取)
 ```
 public class StringDemo{
 public static void main(String args[]){
