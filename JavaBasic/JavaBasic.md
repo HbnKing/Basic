@@ -20,7 +20,8 @@
     * 循环控制
     * 思考
 * 5 方法的定义和使用
-* 6 字符串
+* 6 数组
+* 7 字符串
     * [字符串的两种实例化方法及区别](./doc/String/instantiate.md)
     * 匿名对象
     * [字符串的比较](./doc/String/StringComparison.md)
@@ -29,8 +30,9 @@
     * 正则表达式
     * 格式化字符串
     * [String类的HashCode()方法](./doc/String/String_and_hashcode.md)
+    * 常见问题
+        * replace和replaceAll的区别
 
-* 7 数组
 * 8 类和对象
 * 9 包装类
 * 10 Java基础类库
@@ -38,7 +40,7 @@
     * 日期操作类
         * java.util.Date 和java.sql.Date
     * StringBuffer类
-        String  和 StringBuffer
+        String和StringBuffer和StringBuilder
     * Runtime类
     * System类
     * 对象克隆
