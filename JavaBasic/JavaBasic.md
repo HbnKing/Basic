@@ -2,10 +2,15 @@
 ## 第一部分:Java基础知识
 * 1 Java 简介
     * [java 概述](./doc/new2java/OverViewOfJAVA.md)
-        * Java 语言特性
-        * [搭建Java 环境(JDK 的 安装)](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/new2java/JDK%20%E7%9A%84%E5%AE%89%E8%A3%85.html)
+        * 什么是JAVA
+        * JAVA的跨平台性
+        * JAVA的版本
+    * [Java 语言特性](./doc/new2java/JavaFeatures.md)
+    * [搭建Java 环境](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/new2java/JDK%20%E7%9A%84%E5%AE%89%E8%A3%85.html)
+        * JDK与 JRE
+        * 安装JDK
         * 第一个Java 程序
-    * Java语言的特征
+    
 * 2 开发工具【Eclipse /IDEA】
     * [安装MyEclipse](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/DevelopTools/%E5%AE%89%E8%A3%85myeclipse.html)
     * 安装IDEA
