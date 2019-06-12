@@ -18,6 +18,5 @@
     <modules>
         <module>JavaBasic</module>
         <module>ScalaBasic</module>
-        <module>LeetCode</module>
     </modules>
 </project>
