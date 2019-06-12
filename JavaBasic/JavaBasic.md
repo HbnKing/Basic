@@ -57,6 +57,9 @@
         * 对象的比较
         * 对象的销毁
 * 9 包装类
+    * Integer
+    * [Integer的比较问题](./doc/PackageType/TheCompareOfInteger.md)
+        
 * 10 Java基础类库
     * 数字操作类
         * 数学运算
@@ -68,7 +71,6 @@
         * 大数字运算
             * BigInteger
             * BigDecimal
-    
     * 日期操作类
         * java.util.Date 和java.sql.Date
     * StringBuffer类
@@ -76,6 +78,7 @@
     * Runtime类
     * System类
     * 对象克隆
+* 类图 UML 
     
     
 
@@ -86,6 +89,16 @@
 * 13 异常处理
 * 14 Swing程序设计 
 * 15 集合类
+    * 集合类概述
+    * 集合类的深入研究
+    * Collection 接口
+    * List 集合
+        * List接口   
+        * List接口的实现类   
+    * Set集合
+    * Map接口   
+        * Map接口  
+        * Map接口的实现类
 * 16 IO流
 * 序列化与反序列化
 * 17 反射
