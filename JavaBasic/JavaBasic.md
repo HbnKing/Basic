@@ -1,18 +1,19 @@
 # JavaBasic
 ## 第一部分:Java基础知识
 * 1 Java 简介
-    * [什么是java](./doc/new2java/OverViewOfJAVA.md)
+    * [java 概述](./doc/new2java/OverViewOfJAVA.md)
         * Java 语言特性
         * [搭建Java 环境(JDK 的 安装)](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/new2java/JDK%20%E7%9A%84%E5%AE%89%E8%A3%85.html)
         * 第一个Java 程序
-    * 1.2 Java语言的特征
+    * Java语言的特征
 * 2 开发工具【Eclipse /IDEA】
     * [安装MyEclipse](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/DevelopTools/%E5%AE%89%E8%A3%85myeclipse.html)
+    * 安装IDEA
 * 3 Java语言基础
-    * 3.1 java 主类的结构
-    * 3.2 基本数据类型
-    * 3.3 变量与常量
-    * 3.4 运算符 
+    * java 主类的结构
+    * 基本数据类型
+    * 变量与常量
+    * 运算符 
     * 数据类型的转换
     * 代码注释和规范
 * 4 流程控制
