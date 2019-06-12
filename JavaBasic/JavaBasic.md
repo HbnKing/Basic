@@ -29,6 +29,7 @@
     * [String 类的常用方法](./doc/String/String'sMethod.md)
     * 正则表达式
     * 格式化字符串
+    * [String作为参数](./doc/String/StringAsParameter.md)
     * [String类的HashCode()方法](./doc/String/String_and_hashcode.md)
     * 常见问题
         * replace和replaceAll的区别
@@ -57,6 +58,7 @@
         * 对象的比较
         * 对象的销毁
 * 9 包装类
+    * Number类
     * Integer
     * [Integer的比较问题](./doc/PackageType/TheCompareOfInteger.md)
         
@@ -101,6 +103,7 @@
         * Map接口的实现类
 * 16 IO流
 * 序列化与反序列化
+    * 我们为啥需要序列化
 * 17 反射
 * 18 枚举与泛型
 * 19 多线程
