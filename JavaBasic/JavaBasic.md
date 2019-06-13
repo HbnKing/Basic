@@ -10,6 +10,8 @@
         * JDK与 JRE
         * 安装JDK
         * 第一个Java 程序
+    * 思考
+        * [练习题](./doc/new2java/HomeWork.md)
     
 * 2 开发工具【Eclipse /IDEA】
     * [安装MyEclipse](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/DevelopTools/%E5%AE%89%E8%A3%85myeclipse.html)
@@ -21,13 +23,24 @@
         * [变量](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/Java%E5%8F%98%E9%87%8F.html)
     * [运算符](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/%E8%BF%90%E7%AE%97%E7%AC%A6.html)
     * [注释|关键字| 标识符](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/%E6%B3%A8%E9%87%8A%E3%80%81%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E6%A0%87%E8%AF%86%E7%AC%A6.html)
+    * 思考
+        * [练习题]
 * 4 流程控制
-    * 分支结构
-    * 循环结构
+    * [分支结构](./doc/WorkFlow/ConditionalStatement.md)
+        * if-else
+        * switch-case
+    * [循环结构](./doc/WorkFlow/LoopStatement.md)
+        * for
+        * while
+        * dowhile
     * 循环控制
     * 思考
 * 5 方法的定义和使用
 * 6 数组
+    * 一维数组的创建及使用
+    * 二维数组的创建及使用
+    * 数组的基本操作
+    * 数组排序算法
 * 7 字符串
     * [字符串的两种实例化方法及区别](./doc/String/instantiate.md)
     * 匿名对象
@@ -41,21 +54,22 @@
     * 常见问题
         * replace和replaceAll的区别
 
-* 8 类和对象
-    * 面向对象概述
+* 8 类和对象ObjectOriented
+    * [面向对象概述](./doc/ObjectOriented/ObjectOriented.md)
         * 对象
         * 类
         * 封装
         * 继承
         * 多态
     * 类
+        * [简单java类](./doc/ObjectOriented/SimpleJavaDemo.md)
         * 成员变量
         * 成员方法
         * 成员修饰符
         * 局部变量
         * 局部变量的有效范围
         * this关键字
-    * 类的构造方法
+    * [类的构造方法](./doc/ObjectOriented/ConstructFuction.md)
     * 静态变量 常量和方法
     * 类的主方法
     * 对象
@@ -64,6 +78,8 @@
         * 对象的引用
         * 对象的比较
         * 对象的销毁
+    * 思考
+        * [练习题](./doc/ObjectOriented/HomeWork.md)
 * 9 包装类
     * Number类
     * Integer
