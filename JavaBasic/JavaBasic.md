@@ -24,7 +24,7 @@
     * [运算符](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/%E8%BF%90%E7%AE%97%E7%AC%A6.html)
     * [注释|关键字| 标识符](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/%E6%B3%A8%E9%87%8A%E3%80%81%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E6%A0%87%E8%AF%86%E7%AC%A6.html)
     * 思考
-        * [练习题]
+        * [练习题](./doc/Java_Basic/HomeWork.md)
 * 4 流程控制
     * [分支结构](./doc/WorkFlow/ConditionalStatement.md)
         * if-else
@@ -37,10 +37,10 @@
     * 思考
 * 5 方法的定义和使用
 * 6 数组
-    * 一维数组的创建及使用
-    * 二维数组的创建及使用
-    * 数组的基本操作
-    * 数组排序算法
+    * [一维数组的创建及使用](./doc/Array/OneDimensionArray.md)
+    * [二维数组的创建及使用](./doc/Array/TwoDomensionArray.md)
+    * [数组的基本操作](./doc/Array/ArraysOperation.md)
+    * [数组排序算法](./doc/Array/Array'sSorting.md)
 * 7 字符串
     * [字符串的两种实例化方法及区别](./doc/String/instantiate.md)
     * 匿名对象
