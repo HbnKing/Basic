@@ -51,7 +51,8 @@
     * 格式化字符串
     * [String作为参数](./doc/String/StringAsParameter.md)
     * [String类的HashCode()方法](./doc/String/String_and_hashcode.md)
-    * 常见问题
+    * 思考
+        * [字符串的四则运算](./doc/String/Compute.md)
         * replace和replaceAll的区别
 
 * 8 类和对象ObjectOriented
