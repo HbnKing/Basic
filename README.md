@@ -9,5 +9,5 @@
 ## SCALA基础
 
 ##  群
-！[](./QQ.jpeg)
+![](./QQ.jpeg)
 
