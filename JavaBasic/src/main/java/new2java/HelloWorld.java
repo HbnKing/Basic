@@ -1,4 +1,4 @@
-package muke;
+package new2java;
 
 public class HelloWorld {
     

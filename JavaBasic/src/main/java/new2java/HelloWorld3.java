@@ -1,4 +1,4 @@
-package muke;
+package new2java;
 
 public class HelloWorld3 {
     public static void main(String[] args) {

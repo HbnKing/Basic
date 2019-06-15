@@ -1,4 +1,4 @@
-package muke;
+package new2java;
 public class HelloWorld4 {
     
     //完成 main 方法

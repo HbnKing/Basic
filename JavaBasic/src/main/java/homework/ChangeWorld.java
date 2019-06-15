@@ -2,6 +2,15 @@ package homework;
 
 import java.util.Arrays;
 
+
+/**
+ * 计算由相同 字母组成的单词
+ * 输出结果为
+ * pans	snap
+ * pots	stop	tops
+ * opt
+ *
+ */
 public class ChangeWorld {
 	
 

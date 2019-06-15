@@ -1,4 +1,4 @@
-package stringdemo;
+package String;
 
 
 public class StringWithRegex {
