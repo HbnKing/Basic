@@ -104,12 +104,16 @@
             * BigInteger
             * BigDecimal
     * 日期操作类
+        * Date和Calender类
         * java.util.Date 和java.sql.Date
     * StringBuffer类
         * String和StringBuffer和StringBuilder
     * Runtime类
     * System类
+    * Format类及其子类
+    * Scanner类
     * 对象克隆
+
 * 类图 UML 
     
     
@@ -152,6 +156,16 @@
     * [网络编程简介](./doc/NetworkProgram/BriefIntroduction.md)
     * [网络编程实现](./doc/NetworkProgram/ServerSocket&&Socket.md)
     * [网络编程ECHO模型](./doc/NetworkProgram/EchoDemo.md),[多线程网络编程](./doc/NetworkProgram/ChartingRoom.md)
+    *网络基础知识
+     * Java UDP 编程
+     * Java TCP 编程
+     * Java HTTP 编程
+     * Java HTTP 编程 (HttpClient)
+     * Java NIO 编程
+     * Java AIO 编程
+     * Netty编程
+     * 邮件基础知识
+     * Java Mail编程
 * 21 数据库操作
     * [JDBC 数据库连接技术](./doc/JDBC/JDBC.md)
     * [sql包jdbc连接](./doc/JDBC/JDBCPackage.md)
@@ -194,7 +208,26 @@
     * Docx简介及解析
     * 表格文件简介及解析
     * PDF简介及解析
+* Java混合编程
+    * Java调用Java程序(RMI)
+    * Java调用C程序(JNI)
+    * Java调用Javascript程序(Nashorn)
+    * Java调用Python程序(Jython)
+    * Java调用Web Service
+    * Java调用命令行
 
+* Java多线程和并发编程
+    * 多进程和多线程简介
+    * Java多线程实现
+    * Java多线程信息共享
+    * Java多线程管理(1)
+    * Java多线程管理(2)
+    * Java并发框架Executor
+    * Java并发框架Fork-Join
+    * Java并发数据结构
+    * Java并发协作控制(1)
+    * Java并发协作控制(2)
+    * Java定时任务执行
 * 正确 使用Volatile
 * JVM 内存模型
 * JVM 类家在机制
