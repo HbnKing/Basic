@@ -36,6 +36,12 @@
     * 循环控制
     * 思考
 * 5 方法的定义和使用
+    * 方法定义
+    * 方法调用  
+    * 方法重载 
+    * 局部变量与方法举例
+    * 思考
+        * [Overload 和 Override 的区别](./doc/JavaFuction/OverloadAndOverride.md)
 * 6 数组
     * [一维数组的创建及使用](./doc/Array/OneDimensionArray.md)
     * [二维数组的创建及使用](./doc/Array/TwoDomensionArray.md)
@@ -100,7 +106,7 @@
     * 日期操作类
         * java.util.Date 和java.sql.Date
     * StringBuffer类
-        String和StringBuffer和StringBuilder
+        * String和StringBuffer和StringBuilder
     * Runtime类
     * System类
     * 对象克隆
@@ -116,7 +122,7 @@
 * 14 Swing程序设计 
 * 15 集合类
     * 集合类概述
-    * 集合类的深入研究
+    * [集合类的深入研究](./doc/Collections/In-depth_Container.md)
     * Collection 接口
     * List 集合
         * List接口   
@@ -125,6 +131,10 @@
     * Map接口   
         * Map接口  
         * Map接口的实现类
+    * Concurrent包的介绍
+    * 思考
+        * [Java ConcurrentModificationException异常原因和解决方法](./doc/Collections/ConcurrentModificationException.md)
+        
 * 16 IO流
 * 序列化与反序列化
     * 我们为啥需要序列化
@@ -149,6 +159,7 @@
     * [批处理与事务处理](./doc/JDBC/Transaction.md)
     * ORM 
     * 分页模型
+    * 数据库连接池
     
 * 21 Annotation
 * 21 Java8新特性
@@ -162,6 +173,27 @@
 
 
 ## 第三部分:高级应用
+* 单元测试和JUnit
+    * 单元测试
+    * JUnit
+
+* 高级文本处理
+    * Java字符编码
+    * Java国际化编程
+    * Java高级字符串处理
+
+* 高级文件处理
+    * [未整理](https://www.icourse163.org/course/ECNU-1003718005)
+    * XML简介
+    * XML解析(DOM方法)
+    * XML解析(SAX方法)
+    * XML解析(Stax方法)
+    * JSON简介及解析
+    * 图形图像简介及解析
+    * 条形码和二维码简介及解析
+    * Docx简介及解析
+    * 表格文件简介及解析
+    * PDF简介及解析
 
 * 正确 使用Volatile
 * JVM 内存模型
