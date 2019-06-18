@@ -131,11 +131,14 @@
         * 向上转型
         * 向下转型
     * instanceof 的判断
-    * 方法的重载
-    * 多态
+    * [方法的重载与重写](./doc/Inheritance/OverloadOverride.md)
+    * [多态](./doc/Inheritance/多态.md)
     * 抽象类与接口
-        * 抽象类 
-        * 接口
+        * [抽象类](./doc/Inheritance/abstract_class.md)
+        * [接口](./doc/Inheritance/Interface.md)
+    * [封装](./doc/Inheritance/Encapsulation.md)
+    * [包](./doc/Inheritance/package.md)
+    
 * 13 类的高级特性
 * 13 异常处理
 * 14 Swing程序设计 
@@ -192,13 +195,13 @@
     * 分页模型
     * 数据库连接池
     
-* 21 Annotation
-* 21 Java8新特性
+* Annotation
+* Java8新特性
     * 接口定义增强
     * Lamda表达式
     * 方法引用
     * 内建函数式接口
-* 12 设计模式案例 
+* 设计模式案例 
 * DAO 设计模式
 
 
