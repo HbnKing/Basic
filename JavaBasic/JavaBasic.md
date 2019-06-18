@@ -65,9 +65,9 @@
     * [面向对象概述](./doc/ObjectOriented/ObjectOriented.md)
         * 对象
         * 类
-        * 封装
-        * 继承
-        * 多态
+        * [封装](./doc/ObjectOriented/Encapsulation.md)
+        * [继承](./doc/ObjectOriented/Interface.md)
+        * [多态](./doc/ObjectOriented/多态.md)
     * 类
         * [简单java类](./doc/ObjectOriented/SimpleJavaDemo.md)
         * 成员变量
@@ -125,19 +125,19 @@
 
 ## 第二部分:核心技术 
 * 11 接口、继承与多态
-    * [类的继承](./doc/Inheritance/Inheritance.md)
+    * [类的继承](doc/ObjectOriented/Inheritance.md)
     * Object类
     * 对象类型的转换
         * 向上转型
         * 向下转型
     * instanceof 的判断
-    * [方法的重载与重写](./doc/Inheritance/OverloadOverride.md)
-    * [多态](./doc/Inheritance/多态.md)
+    * [方法的重载与重写](doc/ObjectOriented/OverloadOverride.md)
+    * [多态](doc/ObjectOriented/多态.md)
     * 抽象类与接口
-        * [抽象类](./doc/Inheritance/abstract_class.md)
-        * [接口](./doc/Inheritance/Interface.md)
-    * [封装](./doc/Inheritance/Encapsulation.md)
-    * [包](./doc/Inheritance/package.md)
+        * [抽象类](doc/ObjectOriented/abstract_class.md)
+        * [接口](doc/ObjectOriented/Interface.md)
+    * [封装](doc/ObjectOriented/Encapsulation.md)
+    * [包](doc/ObjectOriented/package.md)
     
 * 13 类的高级特性
 * 13 异常处理
