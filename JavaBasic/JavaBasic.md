@@ -140,6 +140,8 @@
         * [Java ConcurrentModificationException异常原因和解决方法](./doc/Collections/ConcurrentModificationException.md)
         
 * 16 IO流
+    * 绝对路径和相对路径
+    * 字节流和字符流
 * 序列化与反序列化
     * 我们为啥需要序列化
 * 17 反射
@@ -156,16 +158,16 @@
     * [网络编程简介](./doc/NetworkProgram/BriefIntroduction.md)
     * [网络编程实现](./doc/NetworkProgram/ServerSocket&&Socket.md)
     * [网络编程ECHO模型](./doc/NetworkProgram/EchoDemo.md),[多线程网络编程](./doc/NetworkProgram/ChartingRoom.md)
-    *网络基础知识
-     * Java UDP 编程
-     * Java TCP 编程
-     * Java HTTP 编程
-     * Java HTTP 编程 (HttpClient)
-     * Java NIO 编程
-     * Java AIO 编程
-     * Netty编程
-     * 邮件基础知识
-     * Java Mail编程
+    * 网络基础知识
+    * Java UDP 编程
+    * Java TCP 编程
+    * Java HTTP 编程
+    * Java HTTP 编程 (HttpClient)
+    * Java NIO 编程
+    * Java AIO 编程
+    * Netty编程
+    * 邮件基础知识
+    * Java Mail编程
 * 21 数据库操作
     * [JDBC 数据库连接技术](./doc/JDBC/JDBC.md)
     * [sql包jdbc连接](./doc/JDBC/JDBCPackage.md)
