@@ -90,6 +90,10 @@
 * 9 包装类
     * Number类
     * Integer
+    * Boolean
+    * Byte
+    * Character
+    * Double
     * [Integer的比较问题](./doc/PackageType/TheCompareOfInteger.md)
         
 * 10 Java基础类库
@@ -121,6 +125,17 @@
 
 ## 第二部分:核心技术 
 * 11 接口、继承与多态
+    * [类的继承](./doc/Inheritance/Inheritance.md)
+    * Object类
+    * 对象类型的转换
+        * 向上转型
+        * 向下转型
+    * instanceof 的判断
+    * 方法的重载
+    * 多态
+    * 抽象类与接口
+        * 抽象类 
+        * 接口
 * 13 类的高级特性
 * 13 异常处理
 * 14 Swing程序设计 

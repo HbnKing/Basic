@@ -13,12 +13,10 @@ public class Switch_case {
 			break;
 		case 4:
 			System.out.println("zhege shi 4");
-					
-					
-					
+			
+
 	}
-	
-		
+
 	}
 
 }
