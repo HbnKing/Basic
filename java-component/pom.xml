@@ -8,8 +8,58 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>chapter1_json</module>
+        <module>chapter2_1_EhCache</module>
+        <module>chapter2_2_guavaCache</module>
+        <module>chapter3_1_redis</module>
+        <module>chapter3_2_redis_spring</module>
+        <module>chapter3_3_redis_spring_session</module>
+        <module>chapter3_4_redis_queue</module>
+        <module>chapter4_1_mongodb</module>
+        <module>chapter4_2_mongodb_spring</module>
+        <module>chapter4_3_mongodb_autoid</module>
+        <module>chapter4_4_mongodb_aggregation</module>
+        <module>chapter4_5_mongodb_loc</module>
+        <module>chapter5_1_job_timer</module>
+        <module>chapter5_2_job_quartz</module>
+        <module>chapter5_3_job_spring</module>
+        <module>chapter11_1_multithread</module>
+        <module>chapter11_2_multithread_guava</module>
+        <module>chapter6_verifycode</module>
+        <module>chapter9_1_xfire_server</module>
+        <module>chapter9_2_cxf</module>
+        <module>chapter9_3_axis2</module>
+        <module>chapter17_echarts</module>
+        <module>chapter8_1_rabbitmq</module>
+        <module>chapter8_2_rabbitmq_listener</module>
+    </modules>
+    <packaging>pom</packaging>
 
-    <artifactId>java-component</artifactId>
+    <artifactId>Java-component</artifactId>
+    <version>1.0.0</version>
+    <properties>
+        <java.component.version>1.0.0</java.component.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencies>
+
+    </dependencies>
 
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
