@@ -133,8 +133,9 @@ MySQL必须在连接字符串中添加`rewriteBatchedStatements=true`才能真�
 ```
 2.3 游标支持
 
-默认情况下，MySQL Connector/J 查询时是一次将所有结果返回，这样记录特别大时就会出现OOM异常，可以通过添加`useCursorFetch=true&defaultFetchSize=50`来启用游标的方式来每次返回部分结果
-
+默认情况下，MySQL Connector/J 查询时是一次将所有结果返回，这样记录特别大时就会出现OOM异常，可以通过添加`useCursorFetch=true&defaultFetchSize=50`来启用游标的方式来每次返回部分结果。
+一般的数据库不会一次性全部取到JVM内存中。Statement和ResultSet都定义了get/setFetchSize()来指定，在需要更多结果集时，一次性取多少记录到本地内存。
+但这只是对底层JDBC驱动的一个提示，具体默认值以及是否有实现此功能视JDBC驱动实现而定。例如mysql的connector/j驱动需要使用useCursorFetch=true才能启用此功能并正常识别fetchSize的值
  
 
 2.4 启用日志
