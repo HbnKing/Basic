@@ -70,14 +70,18 @@
         * [多态](./doc/ObjectOriented/多态.md)
     * 类
         * [简单java类](./doc/ObjectOriented/SimpleJavaDemo.md)
+        * [局部变量和成员变量](./doc/ObjectOriented/Variables.md)
         * 成员变量
         * 成员方法
         * 成员修饰符
         * 局部变量
         * 局部变量的有效范围
         * this关键字
+    * [内部类](./doc/ObjectOriented/InnerClass.md)
     * [类的构造方法](./doc/ObjectOriented/ConstructFuction.md)
     * 静态变量 常量和方法
+        * [静态初始代码块](./doc/ObjectOriented/StaticCodeBlock.md)
+        
     * 类的主方法
     * 对象
         * 对象的创建
@@ -124,7 +128,7 @@
 
 
 ## 第二部分:核心技术 
-* 11 接口、继承与多态
+* 11 接口、继承与多态(面向对象高级特性)
     * [类的继承](doc/ObjectOriented/Inheritance.md)
     * Object类
     * 对象类型的转换
@@ -160,6 +164,7 @@
 * 16 IO流
     * 绝对路径和相对路径
     * 字节流和字符流
+    * 超大文件如何读取
 * 序列化与反序列化
     * 我们为啥需要序列化
 * 17 反射
