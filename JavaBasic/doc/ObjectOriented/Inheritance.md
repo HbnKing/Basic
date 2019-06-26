@@ -1,4 +1,6 @@
-继承的概念
+## 继承的概念
+
+
 继承是java面向对象编程技术的一块基石，因为它允许创建分等级层次的类。
 
 继承就是子类继承父类的特征和行为，使得子类对象（实例）具有父类的实例域和方法，或子类从父类继承方法，使得子类具有父类相同的行为。
@@ -224,6 +226,7 @@ class SuperClass {
   }
 }
 ```
+```
 // SubClass 类继承
 class SubClass extends SuperClass{
   private int n;
@@ -302,3 +305,208 @@ class C extends B {}
 this()和super()的使用
 两个全部要放在首行，假设在一个构造方法中存在this()，这时就不存在super()
 可是我们说this()假设调用自己，这个构造方法是不存在出口的，可是假设this()调用其它的构造方法，这个构造方法也必须隐含着首行的代码super()，在这种构造函数不是一个不存在出口的递归形式时，在其的出口构造函数一定会调用super().
+
+
+### 继承性(继承问题的引出)
+```
+class Student{
+private String name;
+private int age;
+private String school;
+public void setName(String name){
+this.name=name; }
+public void setAge(int age){ this.age=age;
+}
+public void setSchool(String school){
+this.school=school; }
+public String getName(){ return this.name;
+}
+public int getAge(){
+return this.age; }
+public String getSchool(){ return this.school;
+} }
+class Person{
+private String name;
+private int age;
+public void setName(String name){
+this.name=name; }
+public void setAge(int age){ this.age=age;
+}
+public String getName(){
+return this.name; }
+public int getAge(){ return this.age;
+} }
+public class TestDemo{
+public static void main(String args[]){
+} }
+```
+### 继承性(继承的实现)
+```
+class Person{
+private String name;
+private int age;
+public void setName(String name){
+this.name=name; }
+public void setAge(int age){ this.age=age;
+}
+
+ public String getName(){ return this.name;
+}
+public int getAge(){
+return this.age; }
+}
+class Student extends Person{//继承了Person父类
+private String school;
+public void setSchool(String school){
+this.school=school; }
+public String getSchool(){ return this.school;
+} }
+public class TestDemo{
+public static void main(String args[]){
+Student stu=new Student();
+stu.setName("阿尤");
+stu.setAge(24);
+stu.setSchool("家里蹲大学"); System.out.println("姓名:"+stu.getName()+"，年龄:"+stu.getAge()+"，学校:"+stu.getSchool());
+} }
+```
+### 继承性(继承的限制)
+//Java不允许多重继承，可以多层继承，开发角度而言，不要超过3层。 //子类在继承父类的时候严格来讲会继承父类的所有操作，但是对于所有的私有操作属于隐式继承，而所有的非私有操作属于显式继承。
+```
+class A{
+private String msg;
+public void setMsg(String msg){
+this.msg=msg; }
+public String getMsg(){ return this.msg;
+} }
+class B extends A{
+//public void fun(){
+// System.out.println(msg);//因为msg为私有属性，属于隐式继承，不能被操作，编译无法通过。 //}
+}
+```
+```
+public class TestDemo{
+public static void main(String args[]){ B b=new B();
+b.setMsg("Hello"); System.out.println(b.getMsg());
+} }
+class A{ public A(){
+System.out.println("A-A类的构造方法"); }
+}
+class B extends A{
+public B(){
+super ();//父类中有无参构造是，加与不加无区别。
+System.out.println("B-B类的构造方法"); }
+}
+public class TestDemo{
+public static void main(String args[]){
+new B();//此时并没有任何的操作代码，但发现，在实例化子类对象前先去实例化了父类对象以及调用了父类的无参构造方法。那么此时对于子类构造而言，就相当于隐藏了一
+个"super()"。 }
+}
+//如果此时父类中没有无参构造方法了，那么就必须使用super()明确调用父类的有参构造方法。 class A{
+public A(String title){ System.out.println("A-A类的构造方法");
+} }
+class B extends A{ public B(String title){
+super(title);
+System.out.println("B-B类的构造方法"); }
+}
+
+ public class TestDemo{
+public static void main(String args[]){
+new B("Hello"); }
+}
+//通过观察super()主要是由子类调用父类中的构造方法，那么这行语句一定要放在子类构造方法的首行。这一点和this()是类似的。那么这两个同时出现呢? //通过代码验证:super()与this()不能同时出现，不管子类怎么折腾，它都永恒有一个存在的前提:子类对象的构造调用前一定先执行父类构造，为父类的对象初始化后，才轮到子类对象初始 化。
+```
+### 覆写(方法覆写)
+```
+class A{
+public void fun(){
+System.out.println("A-A类的fun()方法"); }
+}
+class B extends A{
+}
+public class TestDemo{
+public static void main(String args[]){ B b=new B();
+b.fun();
+} }
+//下面开始覆写 class A{
+public void fun(){ System.out.println("A-A类的fun()方法");
+} }
+class B extends A{
+public void fun(){ System.out.println("B-B类的fun()方法");
+}
+}
+public class TestDemo{
+public static void main(String args[]){ B b=new B();
+b.fun();
+} }
+class A{
+public void fun(){
+System.out.println("A-A类的fun方法"); }
+}
+class B extends A{
+public void fun(){ System.out.println("B-B类的fun方法");
+} }
+class C extends A{ public void fun(){
+System.out.println("C-C类的fun方法"); }
+}
+public class TestDemo{
+public static void main(String args[]){ B b=new B();
+b.fun();
+C c=new C();
+c.fun(); }
+}
+class A{
+public void fun(){
+print(); }
+private void print(){ System.out.println("大家下午辛苦了，瞌睡的同学请站到教室后面去。");
+} }
+class B extends A{ public void print(){
+System.out.println("姜同学自己罚站了"); }
+}
+public class TestDemo{
+public static void main(String args[]){ B b=new B();
+b.fun();
+b.print(); }
+} //这个时候发现子类中根本就没有复写print()方法，也就是说如果使用了private声明，那么这个方法对子类而言是不可见的，就算子类顶一个了一个与之完全相同的符合于覆写要求的方法， 那么也不能够发生覆写。实际上就相当于子类自
+
+class A{
+public void print(){
+System.out.println("大家下午辛苦了，瞌睡的同学请站到教室后面去。"); }
+}
+class B extends A{
+public void print(){ //this.print();//出现递归调用死循环。 super.print(); System.out.println("姜同学自己罚站了");
+} }
+public class TestDemo{
+public static void main(String args[]){
+B b=new B();
+b.print(); }
+} //使用this.方法()会首先查找本类中是否存在要有调用的方法名称，如果存在则直接调用，如果不存在则查找父类中是否具备有次方法，如果有就调用，如果没有，则会发生编译时的错误提 示;
+//使用super.方法()，明确的表示调用的不是子类方法(不查找子类中是否存在有此方法，而直接调用父类中的此方法。)
+```
+|No|区别 | 重载  |  覆写 |
+|----|----|----|----|
+|1|英文单词|Overloading|Override|
+|2|发生范围|发生在一个类里|发生在继承关系中|
+|3|定义|方法名称相同，参数的类型及个数相 同，返回值类型可以不同但不建议。|方法名称相同，参数的类型及个 数相同，方法返回值相同|
+|4|权限|没有权限的限制| 被覆写的方法不能拥有比父类更 严格的访问控制权限。|
+### 覆写(属性覆盖)
+```
+class A{
+String info="Hello";
+}
+class B extends A{
+int info=100; public void print(){
+System.out.println(info);
+System.out.println(super.info); }
+}
+public class TestDemo{
+public static void main(String args[]){ B b=new B();
+b.print();
+} }
+//1、在以后的开发中，强烈建议在本类或者父类中加上"this."或者"super."，这样好区分。 //2、如果子类中要用父类指定的方法，但是发现父类的方法实现不能满足子类要求的时候就要使用覆写来完善子类的功能，同时保留父类的方法名称。 //3、被子类覆写的方法不能拥有比父类更严格访问控制权限。
+```
+| NO|区别| this|super |
+|-----|-----|----|----|
+|1|功能|调用本类构造、本类方法、本类属性|子类调用父类构造、父类方法、父类 属性|
+|2|形式|先查找本类中是否存在有指定的调用结 构，如果有则直接调用，如果没有则调 用父类定义。|不查找子类，直接调用父类操作|
+|3|特殊|表示本类的当前对象|不能单独使用|
+ 

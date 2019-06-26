@@ -71,12 +71,12 @@
     * 类
         * [简单java类](./doc/ObjectOriented/SimpleJavaDemo.md)
         * [局部变量和成员变量](./doc/ObjectOriented/Variables.md)
-        * 成员变量
+        * 成员变量 
         * 成员方法
         * 成员修饰符
         * 局部变量
         * 局部变量的有效范围
-        * this关键字
+        * [this关键字](./doc/ObjectOriented/aboutThis.md)
     * [内部类](./doc/ObjectOriented/InnerClass.md)
     * [类的构造方法](./doc/ObjectOriented/ConstructFuction.md)
     * 静态变量 常量和方法
@@ -84,10 +84,11 @@
         
     * 类的主方法
     * 对象
-        * 对象的创建
+        * [对象的创建](./doc/ObjectOriented/CreateNewObject.md)
         * 访问对象的属性和行为
         * 对象的引用
-        * 对象的比较
+        * [对象的映射关系](./doc/ObjectOriented/ObjectMapping.md)
+        * [对象的比较](./doc/ObjectOriented/ObjectCompare.md)
         * 对象的销毁
     * 思考
         * [练习题](./doc/ObjectOriented/HomeWork.md)
@@ -148,6 +149,7 @@
 * 14 Swing程序设计 
 * 15 集合类
     * 集合类概述
+        * [初识链表](./doc/Collections/linked_list.md)
     * [集合类的深入研究](./doc/Collections/In-depth_Container.md)
     * Collection 接口
     * List 集合
