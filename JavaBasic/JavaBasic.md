@@ -19,7 +19,8 @@
 * 3 Java语言基础
     * java 主类的结构
     * [基本数据类型](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html)
-    * 变量与常量
+    * [变量与常量](./doc/Java_Basic/ImmutableAndMutable.md)
+        * 常量
         * [变量](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/Java%E5%8F%98%E9%87%8F.html)
     * [运算符](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/%E8%BF%90%E7%AE%97%E7%AC%A6.html)
     * [注释|关键字| 标识符](https://htmlpreview.github.io/?https://github.com/HbnKing/Basic/blob/master/JavaBasic/doc/Java_Basic/%E6%B3%A8%E9%87%8A%E3%80%81%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E6%A0%87%E8%AF%86%E7%AC%A6.html)
@@ -33,9 +34,9 @@
         * for
         * while
         * dowhile
-    * 循环控制
+    * [循环控制](./doc/WorkFlow/LoopControl.md)
     * 思考
-* 5 方法的定义和使用
+* 5 [方法的定义和使用](./doc/JavaFuction/Fuction.md)
     * 方法定义
     * 方法调用  
     * 方法重载 
@@ -57,6 +58,7 @@
     * 格式化字符串
     * [String作为参数](./doc/String/StringAsParameter.md)
     * [String类的HashCode()方法](./doc/String/String_and_hashcode.md)
+    * [StringBuilder](./doc/String/StringBuffer.md)
     * 思考
         * [字符串的四则运算](./doc/String/Compute.md)
         * replace和replaceAll的区别
@@ -80,9 +82,11 @@
     * [内部类](./doc/ObjectOriented/InnerClass.md)
     * [类的构造方法](./doc/ObjectOriented/ConstructFuction.md)
     * 静态变量 常量和方法
+        * [static关键字](./doc/ObjectOriented/StaticWord.md)
         * [静态初始代码块](./doc/ObjectOriented/StaticCodeBlock.md)
+        * [static 变量](./doc/ObjectOriented/StaticVar.md)
         
-    * 类的主方法
+    * [类的主方法](./doc/ObjectOriented/MainMethod.md)
     * 对象
         * [对象的创建](./doc/ObjectOriented/CreateNewObject.md)
         * 访问对象的属性和行为
@@ -101,7 +105,7 @@
     * Double
     * [Integer的比较问题](./doc/PackageType/TheCompareOfInteger.md)
         
-* 10 Java基础类库
+* 10 [Java基础类库](doc/CommonLibraries/CommonClass.md)
     * 数字操作类
         * 数学运算
             * Math类
@@ -171,15 +175,17 @@
     * 我们为啥需要序列化
 * 17 反射
 * 18 枚举与泛型
-* 19 多线程
-    * 多线程的实现
+* 19 [多线程](./doc/Multithreading/Introduction.md)
+    * [多线程的创建](./doc/Multithreading/ThreadCreating.md)
     * 多线程的操作方法
+    * [线程的安全问题](./doc/Multithreading/ThreadSafety.md)
+    * [线程池](./doc/Multithreading/ThreadPool.md)
     * 线程的同步与死锁
     * 生产者与消费者模型
     * 回顾
         * 单线程多个while(true)会执行到后面的么？
         * 为什么run()方法里面是while(true)?
-* 20 网络通信
+* 20 [网络通信](./doc/NetworkProgram/NetworkProgramBasic.md)
     * [网络编程简介](./doc/NetworkProgram/BriefIntroduction.md)
     * [网络编程实现](./doc/NetworkProgram/ServerSocket&&Socket.md)
     * [网络编程ECHO模型](./doc/NetworkProgram/EchoDemo.md),[多线程网络编程](./doc/NetworkProgram/ChartingRoom.md)
