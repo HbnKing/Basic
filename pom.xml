@@ -19,5 +19,6 @@
         <module>JavaBasic</module>
         <module>ScalaBasic</module>
         <module>Java-component</module>
+        <module>PythonBasic</module>
     </modules>
 </project>
