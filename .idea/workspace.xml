@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="" />
+    <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/Variable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/流程控制.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/ScalaBasic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/doc/basic/scala基础语法.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/scala基础语法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/doc/流程控制.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/test/scala/com/hbn/AppTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/test/scala/com/hbn/MySpec.scala" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +61,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic" />
+      <recent name="$PROJECT_DIR$/ScalaBasic/src/main/scala/process" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -55,6 +78,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Variable" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasic.Variable" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalabasic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Variable" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,6 +112,7 @@
       <workItem from="1565619041492" duration="2563000" />
       <workItem from="1565622901825" duration="936000" />
       <workItem from="1565625784213" duration="161000" />
+      <workItem from="1565674569866" duration="1950000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter17_echarts" />
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter3_3_redis_spring_session" />
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter3_4_redis_queue" />
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter6_verifycode" />
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter8_1_rabbitmq" />
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter8_2_rabbitmq_listener" />
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter9_1_xfire_server" />
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter9_2_cxf" />
+    <file type="web" url="file://$PROJECT_DIR$/java-component/chapter9_3_axis2" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
