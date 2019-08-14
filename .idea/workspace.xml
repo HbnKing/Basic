@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,7 +164,7 @@
       <workItem from="1565686948903" duration="9399000" />
       <workItem from="1565698330376" duration="518000" />
       <workItem from="1565698993625" duration="267000" />
-      <workItem from="1565752896831" duration="1813000" />
+      <workItem from="1565752896831" duration="2303000" />
     </task>
     <servers />
   </component>
