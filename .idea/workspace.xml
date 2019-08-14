@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/DefineFuction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/Fuction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/DataType.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/IfElse.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/Loop.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/WorkFlow.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ArrayArrayBuffer.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/Exception.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/Exception.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/Fuction.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/InputOutput.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/InputOutput.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/LazyFuction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/LazyFuction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/WorkFlow.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/AA.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/SignPen.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/CommonFuction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/CommonFuction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/Fuction2Var.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/SAM.scala" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +165,7 @@
       <workItem from="1565686948903" duration="9399000" />
       <workItem from="1565698330376" duration="518000" />
       <workItem from="1565698993625" duration="267000" />
-      <workItem from="1565752896831" duration="1056000" />
+      <workItem from="1565752896831" duration="1813000" />
     </task>
     <servers />
   </component>
