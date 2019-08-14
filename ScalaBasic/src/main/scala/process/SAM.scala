@@ -11,8 +11,9 @@ object SAM {
 
 
   def main(args: Array[String]): Unit = {
-    import javax.swing._
     import java.awt.event._
+
+    import javax.swing._
 
     val button = new JButton("Click")
     button.addActionListener(new ActionListener {

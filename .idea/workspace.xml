@@ -2,22 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/Variable.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/流程控制.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Basic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/DefineFuction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/Fuction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/DataType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/IfElse.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/Loop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/WorkFlow.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/ScalaBasic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/doc/basic/scala基础语法.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/scala基础语法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/doc/流程控制.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/test/scala/com/hbn/AppTest.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/test/scala/com/hbn/MySpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ArrayArrayBuffer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/Exception.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/Exception.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/Fuction.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/InputOutput.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/workflow/InputOutput.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/LazyFuction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/LazyFuction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/WorkFlow.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/AA.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/SignPen.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/CommonFuction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/fuction/CommonFuction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/Fuction2Var.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/SAM.scala" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +34,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,9 +93,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Variable" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalabasic.Variable" />
+  <component name="RunManager" selected="Application.SAM">
+    <configuration name="DataType" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasic.DataType" />
       <module name="ScalaBasic" />
       <extension name="coverage">
         <pattern>
@@ -93,9 +107,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IfElse" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workflow.IfElse" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputOutput" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workflow.InputOutput" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Loop" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="workflow.Loop" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SAM" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="process.SAM" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Variable" />
+        <item itemvalue="Application.SAM" />
+        <item itemvalue="Application.Loop" />
+        <item itemvalue="Application.InputOutput" />
+        <item itemvalue="Application.IfElse" />
+        <item itemvalue="Application.DataType" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +182,11 @@
       <workItem from="1565619041492" duration="2563000" />
       <workItem from="1565622901825" duration="936000" />
       <workItem from="1565625784213" duration="161000" />
-      <workItem from="1565674569866" duration="1950000" />
+      <workItem from="1565674569866" duration="6672000" />
+      <workItem from="1565686948903" duration="9399000" />
+      <workItem from="1565698330376" duration="518000" />
+      <workItem from="1565698993625" duration="267000" />
+      <workItem from="1565752896831" duration="1056000" />
     </task>
     <servers />
   </component>

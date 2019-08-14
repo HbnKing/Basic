@@ -1,5 +1,7 @@
+package workflow
+
 import scala.util.control.Breaks
-import scala.util.control.Breaks._
+import scala.util.control.Breaks.break
 
 /**
   *

@@ -1,8 +1,12 @@
+package fuction
+
 /**
   *
   * @author wangheng
   * @create 2019-02-20 下午7:31
   * @desc
+ *      变长参数
+ *
   *
   **/
 object Fuction {
@@ -86,6 +90,8 @@ object Fuction {
 
   /**
     *
+   *
+   * 如果名字 为 null  给他一个默认值
     * @param firstname
     * @param middleName
     * @param lastName
@@ -114,6 +120,13 @@ object Fuction {
     result
   }
 
+
+  /**
+   * 变长参数
+   *
+   * @param nums
+   * @return
+   */
   def sum2(nums:Int*): Int ={
     if(nums.length == 0) 0
     else nums.head + sum2(nums.tail:_*)
@@ -125,6 +138,7 @@ object Fuction {
     *
     * 没有使用 = 连接 这样的额函数 没有返回值
     * 称之为 过程
+   *
     */
 
   //会返回

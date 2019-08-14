@@ -1,4 +1,7 @@
-import  scala.io.Source._
+package fuction
+
+import scala.io.Source.fromFile
+
 /**
   *
   * @author wangheng

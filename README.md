@@ -6,11 +6,13 @@
 
 ## [JAVA基础](./JavaBasic/JavaBasic.md)
 
-## SCALA基础
+## [SCALA基础](./ScalaBasic/README.md)
 
-## Python
+## [Python](./PythonBasic/README.md)
 
-##  QQ 
-1559299956
+
+## 其他
+欢迎贡献 不局限于任何文档、代码、注释、说明  
+个人Q 1559299956
 
 

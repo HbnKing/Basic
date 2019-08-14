@@ -1,3 +1,5 @@
+package array
+
 import scala.collection.mutable.ArrayBuffer
 
 /**
@@ -24,11 +26,16 @@ object ArrayArrayBuffer {
     val  a = new Array[Int](10)
     val  b = new Array[String](10)
 
+
+
     //可以直接使用Array() 创建数组  类型自动推断
+    // 这个是半生对象的用法
     //这个自动推断为 Any  类型
     val  c = Array("hello",1);
     c(1) = "bb"
     println(c(1))
+
+
 
 
     /**
@@ -46,9 +53,12 @@ object ArrayArrayBuffer {
     ab += 2
     ab += (2,4,5,6)
     ab ++=Array(7,8,9)
+
     //从后面截断五个
     ab.trimEnd(5)
+
     //指定位置插入  插入多个
+    //  第一个元素 是位置  第二个以后是 元素 值
     ab.insert(4,9)
     ab.insert(4,9,8,7,6)
     // 指定位置删除
@@ -66,6 +76,7 @@ object ArrayArrayBuffer {
       * 如何遍历
       * 1  通过角标
       * 2 增强for  循环
+     *
       */
 
     for(i <- 0 until ac.length) print(ac(i))
@@ -95,6 +106,7 @@ object ArrayArrayBuffer {
     /**
       * 数组的转换
       * 求他们的平方
+     *
       */
 
     val  cc = Array[Int](1,2,3,4,5,6,7,8,9)

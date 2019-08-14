@@ -1,8 +1,14 @@
+package workflow
+
 /**
   *
   * @author wangheng
   * @create 2019-02-20 下午4:16
   * @desc
+ *      输入 输出
+ *      readline()
+ *      readInt()
+ *
   *
   **/
 object InputOutput {
