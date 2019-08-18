@@ -2,7 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/HelloImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/ScalaTraitHello.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Constrcut.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Construct2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Inner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/InnerClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/ObjectClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Student.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Student2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Student3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ClassMatch.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ClassMatch.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/Dog.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/Dog.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/MapTuple.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ObjectApply.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/ObjectApply.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ObjectClass.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ScalaTraitHello.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ScalaTraitMakeFriends.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ScalaTraitMakeFriends.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/Students.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/Variable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic/Variable.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ArrayArrayBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Exception$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Fuction$$anonfun$sum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Fuction$$anonfun$sum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Fuction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Fuction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/LazyFuction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/LazyFuction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/DefineFuction$.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/DefineFuction$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/DefineFuction.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/DefineFuction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/scalabasic/Variable$.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/target/classes/scalabasic/Variable$.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +67,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Package Object" />
+        <option value="Class" />
         <option value="Scala Object" />
+        <option value="Scala Trait" />
       </list>
     </option>
   </component>
@@ -71,26 +125,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SAM">
-    <configuration name="DataType" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalabasic.DataType" />
+  <component name="RunManager" selected="Application.Inner">
+    <configuration name="Inner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.Inner" />
       <module name="ScalaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scalabasic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IfElse" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="workflow.IfElse" />
-      <module name="ScalaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="workflow.*" />
+          <option name="PATTERN" value="oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,13 +178,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="oop.Test" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inner" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.SAM" />
         <item itemvalue="Application.Loop" />
         <item itemvalue="Application.InputOutput" />
-        <item itemvalue="Application.IfElse" />
-        <item itemvalue="Application.DataType" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +219,7 @@
       <workItem from="1565698330376" duration="518000" />
       <workItem from="1565698993625" duration="267000" />
       <workItem from="1565752896831" duration="2303000" />
+      <workItem from="1565930955518" duration="14106000" />
     </task>
     <servers />
   </component>

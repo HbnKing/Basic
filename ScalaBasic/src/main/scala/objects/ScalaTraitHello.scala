@@ -1,3 +1,5 @@
+package objects
+
 /**
   *
   * @author wangheng
@@ -7,6 +9,5 @@
   **/
 trait ScalaTraitHello {
   def  sayHello(name :String):Unit
-
 
 }

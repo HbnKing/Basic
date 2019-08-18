@@ -37,7 +37,11 @@ object Variable {
     //Any  所有类型的父类型
     var data4 :Any = ""
     data4 = 11
-    
+
+
+
+
+
 
 
   }
