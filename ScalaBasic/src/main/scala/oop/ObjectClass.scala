@@ -1,5 +1,7 @@
 package oop
 
+import objects.{Dog, ObjectApply, Person, Season, Students, Teacher}
+
 /**
   *
   * @author wangheng
@@ -28,7 +30,7 @@ object ObjectClass {
 
 
 
-    var  s = new Students
+    var  s = new Students("")
     //s.name
     //s.name_=""
     //s.setName("")
@@ -38,7 +40,7 @@ object ObjectClass {
     t.setName("")
     t.getName
 
-    var  ss = new School
+    var  ss = new School("")
     var  s1 = new School("name")
     var  s2 = new School("name",10)
 

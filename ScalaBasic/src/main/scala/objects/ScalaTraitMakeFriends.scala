@@ -1,4 +1,4 @@
-import objects.Person
+package objects
 
 /**
   *

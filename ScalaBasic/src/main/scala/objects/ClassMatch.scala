@@ -1,4 +1,4 @@
-import objects.Person
+package objects
 
 /**
   *
@@ -16,7 +16,7 @@ object ClassMatch  extends App {
 
 
   var p:Person = new Person("")
-  var s = new Students
+  var s = new Students("leo")
   //isInstanceOf  和 asInstanceOf  不能精准的判断 该 对象是那种类型   本类 和  本类的父类 都会匹配上
   println(p.isInstanceOf[Students])
   println(p.isInstanceOf[Person])

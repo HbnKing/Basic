@@ -1,6 +1,6 @@
 package oop
 
-import oop.Inner.Inners
+
 
 import scala.collection.mutable.ArrayBuffer
 
@@ -57,18 +57,17 @@ object Test {
 
     println("Inner  class")
 
-    val  inner1 = new InnerClass().inners
-    val inner2 = new InnerClass().inners
 
+    val  inner1 = new InnerClass()
+    val inner2 = new InnerClass()
+
+    println("该泛型测试 转移到该类对象中")
     /**
      * 使用 泛型 来测试内部类
      * ArrayBuffer [T]
      *
      */
 
-    val  arrays = new ArrayBuffer[]()
-    println(inner1)
-    println(inner2)
 
 
 
