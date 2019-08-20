@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/java-component/chapter9_1_xfire_server" />
     <file type="web" url="file://$PROJECT_DIR$/java-component/chapter9_2_cxf" />
     <file type="web" url="file://$PROJECT_DIR$/java-component/chapter9_3_axis2" />
+    <type id="Spring" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />

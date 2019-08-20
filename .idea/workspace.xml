@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/highfuction/AnonymousFunctions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/highfuction/Fuction2Var.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/highfuction/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/ClassMatch.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/ScalaTraitMakeFriends.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/Season.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/Students.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/Teacher.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/City.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/School.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-component/Java-component.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-component/chapter5_1_job_timer/chapter5_1_job_timer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-component/chapter5_3_job_spring/chapter5_3_job_spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/actor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/currying/Curry.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/currying/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/highfuction/ClosePackage.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/highfuction/Fuctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/sam/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/main/java/book/thinkingjava/chapter11/UniqueWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/main/java/book/thinkingjava/chapter11/UniqueWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/target/classes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/target/classes/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ClassMatch.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/HelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/HelloWorld.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/ScalaTraitMakeFriends.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/Season.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/objects/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/ObjectClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/ObjectClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/oop/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/target/classes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/HelloWorld.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/highfuction/AnonymousFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/highfuction/AnonymousFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/src/main/scala/process/SignPen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/src/main/scala/sam/SignPen.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ChecksumAccumulator$$anonfun$calculate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ChecksumAccumulator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ChecksumAccumulator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/City$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/City.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ClassMatch$.class" beforeDir="false" />
@@ -45,11 +38,16 @@
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/MapTuple$$anonfun$main$6.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/MapTuple$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/MapTuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectApp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectApp$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectApp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectApply$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectApply.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectClass$$anonfun$main$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectClass$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectMain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ObjectMain.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Person.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ScalaTraitHello.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/ScalaTraitMakeFriends.class" beforeDir="false" />
@@ -58,9 +56,109 @@
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Season.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Students.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/InnerClass$Inners.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/InnerClass$Inners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/InnerClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Test$.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Test$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/array/ArrayArrayBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction$$anonfun$main$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/CommonFuction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/DefineFuction$$anonfun$sum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/DefineFuction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/DefineFuction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Exception$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction$$anonfun$sum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction$$anonfun$sum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$$anonfun$getGreetingFunc$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/Fuction2Var.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/LazyFuction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/fuction/LazyFuction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Constrcut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Construct2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Inner$Inners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/InnerClass$Inners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/InnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Stduent4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Student2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Student3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/oop/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/SAM$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/SAM$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/SAM$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/SAM$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/SAM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/ScalaList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/ScalaList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/ScalaMatch$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/ScalaMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/SignPen$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/process/SignPen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/scalabasic/DataType$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/scalabasic/DataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/scalabasic/Variable$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/scalabasic/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/IfElse$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/IfElse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/InputOutput$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/InputOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$3$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$4$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$$anonfun$main$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/Loop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$breakType1$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$breakType1$1$$anonfun$apply$mcV$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$breakType1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$checkfor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$checkfor$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$checkfor$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$checkforTwice$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$checkforTwice$2$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$checkforTwice$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$checkif$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$$anonfun$checkif$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/target/classes/workflow/WorkFlow.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +177,7 @@
         <option value="Scala Trait" />
         <option value="Scala Object" />
         <option value="Scala Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -133,13 +232,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObjectClass">
+  <component name="RunManager" selected="Application.LikeReturn">
     <configuration name="ClassMatch" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="objects.ClassMatch" />
       <module name="ScalaBasic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClosePackage" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="highfuction.ClosePackage" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="highfuction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fuctions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="highfuction.Fuctions" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="highfuction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,6 +285,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LikeReturn" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="highfuction.LikeReturn" />
+      <module name="ScalaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="highfuction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObjectClass" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="oop.ObjectClass" />
       <module name="ScalaBasic" />
@@ -173,38 +311,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SAM" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="process.SAM" />
-      <module name="ScalaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="process.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="oop.Test" />
-      <module name="ScalaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LikeReturn" />
+        <item itemvalue="Application.ClosePackage" />
+        <item itemvalue="Application.Fuctions" />
         <item itemvalue="Application.ClassMatch" />
         <item itemvalue="Application.Inner" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SAM" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +341,9 @@
       <workItem from="1565752896831" duration="2303000" />
       <workItem from="1565930955518" duration="19251000" />
       <workItem from="1566200554609" duration="766000" />
-      <workItem from="1566203192913" duration="182000" />
+      <workItem from="1566203192913" duration="2968000" />
+      <workItem from="1566206834989" duration="4083000" />
+      <workItem from="1566277179193" duration="67000" />
     </task>
     <servers />
   </component>
