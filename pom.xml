@@ -20,5 +20,6 @@
         <module>ScalaBasic</module>
         <module>Java-component</module>
         <module>PythonBasic</module>
+        <module>JavaHomeWork</module>
     </modules>
 </project>

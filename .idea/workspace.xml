@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/doc/JVM/JVMCommand/JVMCOMMAND.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/HomeWorkStage1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/src/main/java/mmn/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/src/main/java/mmn/Word2Reading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/src/test/java/JunitDateUtilTestForYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaHomeWork/JavaHomeWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaHomeWork/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/resources/Scala语言规范.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/JavaBasic.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/JavaBasic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaBasic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +31,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
-        <option value="Class" />
         <option value="Scala Trait" />
         <option value="Scala Object" />
         <option value="Scala Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,6 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +74,11 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ScalaBasic/src/resources" />
       <recent name="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic" />
       <recent name="$PROJECT_DIR$/ScalaBasic/src/main/scala/process" />
     </key>
@@ -79,20 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LikeReturn">
-    <configuration name="ClassMatch" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="objects.ClassMatch" />
-      <module name="ScalaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JunitDateUtilTestForYear.testForDateUtil">
     <configuration name="ClosePackage" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="highfuction.ClosePackage" />
       <module name="ScalaBasic" />
@@ -112,19 +115,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="highfuction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.Inner" />
-      <module name="ScalaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +148,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Word2Reading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mmn.Word2Reading" />
+      <module name="HomeWorkStage1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitDateUtilTestForYear.testForDateUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWorkStage1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitDateUtilTestForYear" />
+      <option name="METHOD_NAME" value="testForDateUtil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitDateUtilTestForYear.testForDateUtil" />
+        <item itemvalue="Application.Word2Reading" />
         <item itemvalue="Application.LikeReturn" />
         <item itemvalue="Application.ClosePackage" />
         <item itemvalue="Application.Fuctions" />
-        <item itemvalue="Application.ClassMatch" />
-        <item itemvalue="Application.Inner" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +207,11 @@
       <workItem from="1567913575236" duration="968000" />
       <workItem from="1567928361782" duration="82000" />
       <workItem from="1567930689785" duration="1413000" />
+      <workItem from="1568042435332" duration="1943000" />
+      <workItem from="1568080712478" duration="4411000" />
+      <workItem from="1568893495868" duration="2034000" />
+      <workItem from="1570330826735" duration="29000" />
+      <workItem from="1570330861289" duration="330000" />
     </task>
     <servers />
   </component>
