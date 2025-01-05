@@ -3,34 +3,95 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaBasic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaBasic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaBasic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaHomeWork" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaHomeWork/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaHomeWork/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PythonBasic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PythonBasic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PythonBasic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ScalaBasic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ScalaBasic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ScalaBasic/src/main/scala" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter11_1_multithread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter11_1_multithread/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter11_1_multithread/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter11_2_multithread_guava" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter11_2_multithread_guava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter11_2_multithread_guava/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter17_echarts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter17_echarts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter17_echarts/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter1_json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter1_json/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter2_1_EhCache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter2_1_EhCache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter2_1_EhCache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter2_2_guavaCache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter2_2_guavaCache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter2_2_guavaCache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter3_1_redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter3_1_redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter3_1_redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter3_2_redis_spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter3_2_redis_spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter3_2_redis_spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter3_3_redis_spring_session" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter3_3_redis_spring_session/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter3_3_redis_spring_session/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter3_4_redis_queue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter3_4_redis_queue/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter3_4_redis_queue/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter4_1_mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_1_mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_1_mongodb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter4_2_mongodb_spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_2_mongodb_spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_2_mongodb_spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter4_3_mongodb_autoid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_3_mongodb_autoid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_3_mongodb_autoid/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter4_4_mongodb_aggregation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_4_mongodb_aggregation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_4_mongodb_aggregation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter4_5_mongodb_loc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_5_mongodb_loc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter4_5_mongodb_loc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter5_1_job_timer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter5_1_job_timer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter5_1_job_timer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter5_2_job_quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter5_2_job_quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter5_2_job_quartz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter5_3_job_spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter5_3_job_spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter5_3_job_spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter6_verifycode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter6_verifycode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter6_verifycode/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter8_1_rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter8_1_rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter8_1_rabbitmq/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter8_2_rabbitmq_listener" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter8_2_rabbitmq_listener/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter8_2_rabbitmq_listener/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter9_1_xfire_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter9_1_xfire_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter9_1_xfire_server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter9_2_cxf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter9_2_cxf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter9_2_cxf/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-component/chapter9_3_axis2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter9_3_axis2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/chapter9_3_axis2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-component/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9f7e760c-c141-4905-8f6d-8250877d51ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/HomeWorkStage1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/src/main/java/mmn/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/src/main/java/mmn/Word2Reading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaHomeWork/HomeWorkStage1/src/test/java/JunitDateUtilTestForYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaHomeWork/JavaHomeWork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaHomeWork/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScalaBasic/src/resources/Scala语言规范.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaBasic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaBasic/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/java/juc/disruptor/1.lmax-Disruptor队列介绍.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/java/juc/disruptor/disruptor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QQ.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/book/thinkingjava/chapter2/Documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/book/thinkingjava/chapter2/class-use/Documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/book/thinkingjava/chapter2/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/book/thinkingjava/chapter2/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/book/thinkingjava/chapter2/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/book/thinkingjava/chapter2/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/stylesheet.css" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +53,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -51,7 +65,6 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="1.8" />
       </MavenImportingSettings>
     </option>
@@ -59,41 +72,38 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="1PKNt3uAjVji27bc38LIQydNYA8" />
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/workspace/Basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\Basic\docs\java" />
       <recent name="$PROJECT_DIR$/ScalaBasic/src/resources" />
       <recent name="$PROJECT_DIR$/ScalaBasic/src/main/scala/scalabasic" />
       <recent name="$PROJECT_DIR$/ScalaBasic/src/main/scala/process" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.JunitDateUtilTestForYear.testForDateUtil">
     <configuration name="ClosePackage" type="Application" factoryName="Application" temporary="true">
@@ -181,6 +191,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -212,20 +223,19 @@
       <workItem from="1568893495868" duration="2034000" />
       <workItem from="1570330826735" duration="29000" />
       <workItem from="1570330861289" duration="330000" />
+      <workItem from="1735987569379" duration="1888000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

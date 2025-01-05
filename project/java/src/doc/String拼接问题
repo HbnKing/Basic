@@ -1,0 +1,156 @@
+
+				String拼接问题
+
+
+String s = null;  
+s += "abc";  
+System.out.println(s);  
+
+答案是nullabc！
+就这三行代码， 我问了不下于50个人， 有资深的人也有新手的， 在不运行的情况下全答错了。！  可见现在学Java的人有很多人都是速成的，而且这种原理级而又看似不怎么实用的东西几乎没什么人去研究， 但是后面说的机试如果能知道String拼接的原理的话。将很容易就解决！
+很早的时候我就知道String拼接中间会产生StringBuilder对象（JDK1.5之前产生StringBuffer），但是当时也没有去深究内部， 导致在华为笔试此题就错了！
+
+运行时， 两个字符串str1, str2的拼接首先会调用 String.valueOf(obj)，这个Obj为str1，而String.valueOf(Obj)中的实现是return obj == null ? "null" : obj.toString(), 然后产生StringBuilder， 调用的StringBuilder(str1)构造方法， 把StringBuilder初始化，长度为str1.length()+16，并且调用append(str1)！ 接下来调用StringBuilder.append(str2), 把第二个字符串拼接进去， 然后调用StringBuilder.toString返回结果！
+
+所以那道题答案的由来就是StringBuilder.append("null").append("abc").toString();
+
+大家看了我以上的分析以后， 再碰到诸如此类的面试题应该不会再出错了！
+
+
+那么了解String拼接有什么用呢？
+
+在做多线程的时候， 往往会用到一个同步监视器对象去同步一个代码块中的代码synchronized(Obj),   对同一个对象才会互斥，不是同一个对象就不会互斥！
+
+这里有个机试题，
+
+现有程序同时启动了4个线程去调用TestDo.doSome(key, value)方法，由于TestDo.doSome(key, value)方法内的代码是先暂停1秒，然后再输出以秒为单位的当前时间值，所以，会打印出4个相同的时间值，如下所示：
+  4:4:1258199615
+  1:1:1258199615
+  3:3:1258199615
+  1:2:1258199615
+        请修改代码，如果有几个线程调用TestDo.doSome(key, value)方法时，传递进去的key相等（equals比较为true），则这几个线程应互斥排队输出结果，即当有两个线程的key都是"1"时，它们中的一个要比另外其他线程晚1秒输出结果，如下所示：
+  4:4:1258199615
+  1:1:1258199615
+  3:3:1258199615
+  1:2:1258199616
+   总之，当每个线程中指定的key相等时，这些相等key的线程应每隔一秒依次输出时间值（要用互斥），如果key不同，则并行执行（相互之间不互斥）。原始代码如下：
+view plain
+package syn;  
+  
+//不能改动此Test类      
+public class Test extends Thread{  
+      
+    private TestDo testDo;  
+    private String key;  
+    private String value;  
+      
+    public Test(String key,String key2,String value){  
+        this.testDo = TestDo.getInstance();  
+        /*常量"1"和"1"是同一个对象，下面这行代码就是要用"1"+""的方式产生新的对象， 
+        以实现内容没有改变，仍然相等（都还为"1"），但对象却不再是同一个的效果*/  
+        this.key = key+key2;   
+        this.value = value;  
+    }  
+  
+  
+    public static void main(String[] args) throws InterruptedException{  
+        Test a = new Test("1","","1");  
+        Test b = new Test("1","","2");  
+        Test c = new Test("3","","3");  
+        Test d = new Test("4","","4");  
+        System.out.println("begin:"+(System.currentTimeMillis()/1000));  
+        a.start();  
+        b.start();  
+        c.start();  
+        d.start();  
+    }  
+      
+    public void run(){  
+        testDo.doSome(key, value);  
+    }  
+}  
+  
+class TestDo {  
+  
+    private TestDo() {}  
+    private static TestDo _instance = new TestDo();   
+    public static TestDo getInstance() {  
+        return _instance;  
+    }  
+  
+    public void doSome(Object key, String value) {  
+  
+        // 以大括号内的是需要局部同步的代码，不能改动!  
+        {  
+            try {  
+                Thread.sleep(1000);  
+                System.out.println(key+":"+value + ":"  
+                        + (System.currentTimeMillis() / 1000));  
+            } catch (InterruptedException e) {  
+                e.printStackTrace();  
+            }  
+        }  
+    }  
+  
+}  
+此题解题的思路有很多种，不可或缺的步骤就是在doSome方法内部用synchronized(o)把那个写了注释的代码块同步， 有些人肯定会说：
+我直接synchronized(key)，不就完了么.?  这类人肯定是新手级别的了!
+
+上面说了,synchronized(Obj),   对同一个对象才会互斥，不是同一个对象就不会互斥！ 大家请看下Test类中的构造方法里面对key做了什么处理?
+
+this.key = key + key2;
+
+关于字符串的拼接,  如果是两个常量的拼接, 那么你无论拼接多少下都是同一个对象,  这个是编译时 编译器自动去优化的(想知道具体原理的自己去网上搜下).
+
+view plain
+String a = "a" + "b";  
+String b = "a" + "b";  
+System.out.println(a == b);  
+这段代码输出true没有问题
+
+但是一旦涉及到变量了, 我在上面标红加粗的运行时,    此时拼接字符串就会产生StringBuilder,  然而拼接完返回的字符串是怎么返回的呢?
+
+在StringBuilder.toString()中的实现是new String(char value[], int offset, int count), 既然是创建String返回的, 那么调用一次toString,就是一个不同的对象
+
+view plain
+String a = "a";  
+String b = "b";  
+String s1 = a + b;  
+String s2 = a + b;  
+System.out.println(s1 == s2);  
+这个输出就是false!
+
+所以在那道机试题中, 就不能直接用synchronized(key)去同步了,  如果你完完全全很耐心的看完本文, 那么应该知道如何用synchronized(key)同步那段代码了!
+
+不错, 就是修改Test构造方法中的 this.key = key + key2;为this.key = key;
+
+因为字符串不涉及到拼接的时候, 只要不new, 多少都是指向同一个对象!
+
+当然这道多线程的题你也可以把那个key丢到集合里面去，用集合去的contains（obj）去判断，如果集合中存在， 就取集合中的， 否则往集合中添加，但是记住一定要使用并发包下面的集合， 否则可能会抛出ConcurrentModificationException
+
+-------------------------
+
+[java] view plain copy
+String s1 = "123";     
+String s2 = "123";     
+System.out.println(s1 == s2);     
+s1 += "";     
+System.out.println(s1 == s2);    
+TRUE
+FALSE
+
+在做 += "" 的操作的时候,他会先new 一个StringBuilder 然后 apend 最后toString..其实这个时候s1已经不指向常量池中的 "123"了..而是堆里面的String对象"123".. 
+[java] view plain copy
+public class Test {      
+    public static void main(String[] args) {      
+        final String s1 = "123";    
+        String s2 = "123";    
+        System.out.println(s1 == s2);    
+        String s3 = s1 + "";    
+        System.out.println(s1 == s3);    
+    }      
+}  
+true
+true
+
+因为final修饰过的是常量了，在编译期间便可以确认其引用。
